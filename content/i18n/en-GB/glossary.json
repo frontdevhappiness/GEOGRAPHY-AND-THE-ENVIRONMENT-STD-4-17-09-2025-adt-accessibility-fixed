@@ -1,0 +1,1696 @@
+{
+  "accurately": {
+    "word": "accurately",
+    "definition": "in a careful and correct way, without mistakes",
+    "variations": [
+      "accurately",
+      "accurate"
+    ],
+    "emoji": "✅🎯"
+  },
+  "administrative": {
+    "word": "administrative",
+    "definition": "Administrative describes things related to managing or governing an area or organisation.",
+    "variations": [
+      "administrative"
+    ],
+    "emoji": "🏢📋"
+  },
+  "administrative boundaries": {
+    "word": "administrative boundaries",
+    "definition": "official lines that separate areas for government and management, such as regions or districts",
+    "variations": [
+      "administrative boundary",
+      "administrative boundaries"
+    ],
+    "emoji": "🗺️🚧"
+  },
+  "administrative boundary": {
+    "word": "administrative boundary",
+    "definition": "a line on a map that shows the limits of an area such as a region or district",
+    "variations": [
+      "administrative boundaries"
+    ],
+    "emoji": "📏🗺️"
+  },
+  "agreement": {
+    "word": "agreement",
+    "definition": "a decision accepted by two or more people or groups",
+    "variations": [
+      "agreement",
+      "agreements"
+    ],
+    "emoji": "🤝"
+  },
+  "align": {
+    "word": "align",
+    "definition": "to place things in the correct straight position so they match",
+    "variations": [
+      "align",
+      "aligns",
+      "aligned",
+      "aligning"
+    ],
+    "emoji": "📏↔️"
+  },
+  "analog compass": {
+    "word": "analog compass",
+    "definition": "a compass with a needle that points to North",
+    "variations": [
+      "analog compass",
+      "analog compasses"
+    ],
+    "emoji": "🧭"
+  },
+  "analogue": {
+    "word": "analogue",
+    "definition": "something that is not digital and works without computer technology",
+    "variations": [
+      "analogue"
+    ],
+    "emoji": "⏰📻"
+  },
+  "appearance": {
+    "word": "appearance",
+    "definition": "the way something looks",
+    "variations": [
+      "appearance",
+      "appearances"
+    ],
+    "emoji": "🎨👀"
+  },
+  "atlas": {
+    "word": "atlas",
+    "definition": "a book that contains many maps",
+    "variations": [
+      "atlas",
+      "atlases"
+    ],
+    "emoji": "📘🗺️"
+  },
+  "atmospheric pressure": {
+    "word": "atmospheric pressure",
+    "definition": "the force made by the air in the atmosphere pressing down on the Earth",
+    "variations": [
+      "atmospheric pressure"
+    ],
+    "emoji": "🌬️🌍"
+  },
+  "aviation": {
+    "word": "aviation",
+    "definition": "the activity of flying aircraft",
+    "variations": [
+      "aviation"
+    ],
+    "emoji": "✈️"
+  },
+  "border": {
+    "word": "border",
+    "definition": "A border is the line that separates one country or area from another.",
+    "variations": [
+      "border",
+      "borders"
+    ],
+    "emoji": "🛂🗺️"
+  },
+  "boundary": {
+    "word": "boundary",
+    "definition": "the line that marks the edge or limit of an area",
+    "variations": [
+      "boundary",
+      "boundaries"
+    ],
+    "emoji": "📍🗺️"
+  },
+  "browser": {
+    "word": "browser",
+    "definition": "software that lets you access and view websites on the internet",
+    "variations": [
+      "browser",
+      "browsers"
+    ],
+    "emoji": "🌐💻"
+  },
+  "building": {
+    "word": "building",
+    "definition": "a structure with walls and a roof, such as a house or school",
+    "variations": [
+      "building",
+      "buildings"
+    ],
+    "emoji": "🏢🏠"
+  },
+  "capital city": {
+    "word": "capital city",
+    "definition": "the main city where a country’s government is based",
+    "variations": [
+      "capital city",
+      "capital cities"
+    ],
+    "emoji": "🏙️🏛️"
+  },
+  "cardinal directions": {
+    "word": "cardinal directions",
+    "definition": "the four main directions: north, south, east, and west",
+    "variations": [
+      "cardinal direction"
+    ],
+    "emoji": "🧭"
+  },
+  "cartographer": {
+    "word": "cartographer",
+    "definition": "a person who draws or makes maps",
+    "variations": [
+      "cartographer",
+      "cartographers"
+    ],
+    "emoji": "🧑‍🏫🗺️"
+  },
+  "cartography": {
+    "word": "cartography",
+    "definition": "the study and drawing of maps",
+    "variations": [],
+    "emoji": "🗺️✏️"
+  },
+  "centimetre": {
+    "word": "centimetre",
+    "definition": "a small unit for measuring length",
+    "variations": [
+      "centimetre",
+      "centimetres",
+      "cm"
+    ],
+    "emoji": "📐📏"
+  },
+  "characteristics": {
+    "word": "characteristics",
+    "definition": "the important qualities or features of something",
+    "variations": [
+      "characteristic",
+      "characteristics"
+    ],
+    "emoji": "⭐📝"
+  },
+  "Commissioner": {
+    "word": "Commissioner",
+    "definition": "A Commissioner is an official person in charge of an area or department.",
+    "variations": [
+      "Commissioner",
+      "Commissioners"
+    ],
+    "emoji": "👔🏢"
+  },
+  "compass": {
+    "word": "compass",
+    "definition": "an instrument used to find directions, with a needle that usually points north",
+    "variations": [
+      "compass",
+      "compasses"
+    ],
+    "emoji": "🧭"
+  },
+  "comprises": {
+    "word": "comprises",
+    "definition": "Comprises means consists of or is made up of.",
+    "variations": [
+      "comprise",
+      "comprises",
+      "comprised",
+      "comprising"
+    ],
+    "emoji": "🧩📚"
+  },
+  "Computer Aided Design": {
+    "word": "Computer Aided Design",
+    "definition": "Computer Aided Design is the use of a computer to make technical drawings and designs.",
+    "variations": [
+      "Computer Aided Design",
+      "CAD"
+    ],
+    "emoji": "💻📐"
+  },
+  "consistency": {
+    "word": "consistency",
+    "definition": "the quality of keeping things the same, such as using the same symbols or colours in the same way",
+    "variations": [
+      "consistency",
+      "consistent"
+    ],
+    "emoji": "🔁🎨"
+  },
+  "consistently": {
+    "word": "consistently",
+    "definition": "in the same way all through, without unnecessary changes",
+    "variations": [
+      "consistent",
+      "consistently",
+      "consistency"
+    ],
+    "emoji": "✅🔁"
+  },
+  "construction": {
+    "word": "construction",
+    "definition": "the work of building something",
+    "variations": [
+      "construction"
+    ],
+    "emoji": "🏗️"
+  },
+  "contour": {
+    "word": "contour",
+    "definition": "a line on a map that joins places of the same height above sea level",
+    "variations": [
+      "contours",
+      "contour line",
+      "contour lines"
+    ],
+    "emoji": "⛰️📈"
+  },
+  "contour line": {
+    "word": "contour line",
+    "definition": "a line on a map that joins places of equal height",
+    "variations": [
+      "contour line",
+      "contour lines"
+    ],
+    "emoji": "🗺️〰️"
+  },
+  "contour lines": {
+    "word": "contour lines",
+    "definition": "lines on a map that show the height and shape of the land",
+    "variations": [
+      "contour line",
+      "contour lines"
+    ],
+    "emoji": "〰️⛰️"
+  },
+  "convert": {
+    "word": "convert",
+    "definition": "to change something from one form or unit into another",
+    "variations": [
+      "convert",
+      "converts",
+      "converted",
+      "converting",
+      "conversion"
+    ],
+    "emoji": "🔁📐"
+  },
+  "criteria": {
+    "word": "criteria",
+    "definition": "rules or points used to judge, sort, or decide something",
+    "variations": [
+      "criterion",
+      "criteria"
+    ],
+    "emoji": "📋"
+  },
+  "cursor": {
+    "word": "cursor",
+    "definition": "the moving pointer on a computer screen",
+    "variations": [
+      "cursor",
+      "cursors"
+    ],
+    "emoji": "🖱️💻"
+  },
+  "curved distance": {
+    "word": "curved distance",
+    "definition": "the distance measured along a line that bends, such as a road or river",
+    "variations": [
+      "curved distance",
+      "curved distances"
+    ],
+    "emoji": "〰️📏"
+  },
+  "curved line": {
+    "word": "curved line",
+    "definition": "a line that bends instead of going straight",
+    "variations": [
+      "curved line",
+      "curved lines",
+      "curve",
+      "curves"
+    ],
+    "emoji": "〰️📏"
+  },
+  "denominator": {
+    "word": "denominator",
+    "definition": "the bottom number in a fraction or the second number in a ratio",
+    "variations": [
+      "denominator",
+      "denominators"
+    ],
+    "emoji": "🔢➗"
+  },
+  "density": {
+    "word": "density",
+    "definition": "the number of people or things in a certain space or area",
+    "variations": [
+      "density",
+      "densities"
+    ],
+    "emoji": "👥📏"
+  },
+  "depression": {
+    "word": "depression",
+    "definition": "a low area of land that is lower than the land around it",
+    "variations": [
+      "depression",
+      "depressions"
+    ],
+    "emoji": "⬇️🕅"
+  },
+  "destination": {
+    "word": "destination",
+    "definition": "the place a person is travelling to",
+    "variations": [
+      "destination",
+      "destinations"
+    ],
+    "emoji": "📍🚶"
+  },
+  "device": {
+    "word": "device",
+    "definition": "a piece of equipment made for a particular job",
+    "variations": [
+      "device",
+      "devices"
+    ],
+    "emoji": "📱🛠️"
+  },
+  "digital": {
+    "word": "digital",
+    "definition": "using computers or electronic technology to do tasks or show information",
+    "variations": [
+      "digital"
+    ],
+    "emoji": "💻📱"
+  },
+  "digital compass": {
+    "word": "digital compass",
+    "definition": "a compass that uses electronic technology to show direction",
+    "variations": [
+      "digital compass",
+      "digital compasses"
+    ],
+    "emoji": "📱🧭"
+  },
+  "digital map": {
+    "word": "digital map",
+    "definition": "a map made or viewed on an electronic device such as a computer or phone",
+    "variations": [
+      "digital map",
+      "digital maps"
+    ],
+    "emoji": "🗺️💻📱"
+  },
+  "digitally": {
+    "word": "digitally",
+    "definition": "by using a computer, phone, or other electronic technology",
+    "variations": [
+      "digital",
+      "digitally"
+    ],
+    "emoji": "💻📱"
+  },
+  "direction": {
+    "word": "direction",
+    "definition": "the way something is moving or facing, such as north, south, east, or west",
+    "variations": [
+      "direction",
+      "directions",
+      "directional"
+    ],
+    "emoji": "🧭➡️"
+  },
+  "distance": {
+    "word": "distance",
+    "definition": "the amount of space between two places",
+    "variations": [
+      "distances"
+    ],
+    "emoji": "📏↔️"
+  },
+  "distribution": {
+    "word": "distribution",
+    "definition": "the way people or things are spread across an area",
+    "variations": [
+      "distributions",
+      "distribute",
+      "distributed"
+    ],
+    "emoji": "📍🧭"
+  },
+  "district": {
+    "word": "district",
+    "definition": "a smaller administrative area inside a region or country",
+    "variations": [
+      "districts"
+    ],
+    "emoji": "🏙️🗺️"
+  },
+  "divider": {
+    "word": "divider",
+    "definition": "a tool with two pointed legs used to measure or copy distance on a map",
+    "variations": [
+      "divider",
+      "dividers",
+      "pair of dividers"
+    ],
+    "emoji": "📍📏"
+  },
+  "dividers": {
+    "word": "dividers",
+    "definition": "Dividers are a drawing tool with two pointed arms, used to measure distance or mark spaces on paper.",
+    "variations": [
+      "divider",
+      "dividers"
+    ],
+    "emoji": "📐✏️"
+  },
+  "division": {
+    "word": "division",
+    "definition": "A division is a part or section of a larger area or whole.",
+    "variations": [
+      "division",
+      "divisions"
+    ],
+    "emoji": "➗🗺️"
+  },
+  "earth’s surface": {
+    "word": "earth’s surface",
+    "definition": "the outside part of the Earth, including land and water",
+    "variations": [
+      "earth’s surface"
+    ],
+    "emoji": "🌍🏞️"
+  },
+  "electronic device": {
+    "word": "electronic device",
+    "definition": "a machine such as a phone, tablet, or computer that works using electricity",
+    "variations": [
+      "electronic device",
+      "electronic devices"
+    ],
+    "emoji": "📱💻"
+  },
+  "elevation": {
+    "word": "elevation",
+    "definition": "the height of a place above sea level",
+    "variations": [
+      "elevations"
+    ],
+    "emoji": "⛰️⬆️"
+  },
+  "environment": {
+    "word": "environment",
+    "definition": "the natural world and surroundings around us",
+    "variations": [
+      "environment",
+      "environments"
+    ],
+    "emoji": "🌍🌿"
+  },
+  "expertise": {
+    "word": "expertise",
+    "definition": "Expertise is special skill or knowledge in a subject.",
+    "variations": [
+      "expertise"
+    ],
+    "emoji": "🧠⭐"
+  },
+  "feature": {
+    "word": "feature",
+    "definition": "something important that can be seen in a place, such as a road, river, or mountain",
+    "variations": [
+      "feature",
+      "features"
+    ],
+    "emoji": "🏞️📍"
+  },
+  "format": {
+    "word": "format",
+    "definition": "the type or arrangement in which something is saved or shown",
+    "variations": [
+      "format",
+      "formats"
+    ],
+    "emoji": "🗃️📄"
+  },
+  "foundation": {
+    "word": "foundation",
+    "definition": "the basic idea or part on which something else is built",
+    "variations": [
+      "foundation",
+      "foundations"
+    ],
+    "emoji": "🏗️"
+  },
+  "frame": {
+    "word": "frame",
+    "definition": "the border or outer line around a map",
+    "variations": [
+      "frame",
+      "frames"
+    ],
+    "emoji": "🖼️🗺️"
+  },
+  "general map": {
+    "word": "general map",
+    "definition": "a map that shows different kinds of information about an area",
+    "variations": [
+      "general map",
+      "general maps"
+    ],
+    "emoji": "🗺️📍"
+  },
+  "Geographic Information Systems": {
+    "word": "Geographic Information Systems",
+    "definition": "computer systems used to collect, store, and show information about places on the Earth",
+    "variations": [
+      "Geographic Information System",
+      "GIS"
+    ],
+    "emoji": "💻🌍📊"
+  },
+  "geographical": {
+    "word": "geographical",
+    "definition": "Geographical means related to places, areas, and features of the Earth.",
+    "variations": [
+      "geographical"
+    ],
+    "emoji": "🌍🗺️"
+  },
+  "geographical information": {
+    "word": "geographical information",
+    "definition": "facts about places and features on the earth’s surface",
+    "variations": [
+      "geographical information"
+    ],
+    "emoji": "🌍ℹ️"
+  },
+  "Geographical Information System": {
+    "word": "Geographical Information System",
+    "definition": "A Geographical Information System is a computer system used to collect, store, and show information about places on Earth.",
+    "variations": [
+      "Geographical Information System",
+      "Geographical Information Systems",
+      "GIS"
+    ],
+    "emoji": "🗺️💻🌍"
+  },
+  "geography": {
+    "word": "geography",
+    "definition": "the study of the earth, places on it, and how people and the environment are connected",
+    "variations": [
+      "geography"
+    ],
+    "emoji": "🌍🗺️"
+  },
+  "geologist": {
+    "word": "geologist",
+    "definition": "a scientist who studies the Earth, rocks, and landforms",
+    "variations": [
+      "geologist",
+      "geologists"
+    ],
+    "emoji": "🪨🌍"
+  },
+  "governance": {
+    "word": "governance",
+    "definition": "the way a place or country is directed and managed",
+    "variations": [
+      "governance"
+    ],
+    "emoji": "🏛️📋"
+  },
+  "GPS": {
+    "word": "GPS",
+    "definition": "a satellite system used to find the position of a person or object on the Earth’s surface",
+    "variations": [
+      "Global Positioning System"
+    ],
+    "emoji": "📡🌍"
+  },
+  "grid lines": {
+    "word": "grid lines",
+    "definition": "lines on a map that form squares to help people find exact places",
+    "variations": [
+      "grid line",
+      "grid lines"
+    ],
+    "emoji": "#️⃣🗺️"
+  },
+  "ground distance": {
+    "word": "ground distance",
+    "definition": "the real distance between places on the land",
+    "variations": [
+      "ground distance",
+      "ground distances"
+    ],
+    "emoji": "🌍📏"
+  },
+  "guidance": {
+    "word": "guidance",
+    "definition": "help or advice that shows the right way to do something",
+    "variations": [
+      "guidance"
+    ],
+    "emoji": "🛟➡️"
+  },
+  "headquarters": {
+    "word": "headquarters",
+    "definition": "Headquarters is the main office or centre from which an organisation or area is managed.",
+    "variations": [
+      "headquarters"
+    ],
+    "emoji": "🏢📍"
+  },
+  "highway": {
+    "word": "highway",
+    "definition": "a main road used for travelling long distances",
+    "variations": [
+      "highway",
+      "highways"
+    ],
+    "emoji": "🛣️"
+  },
+  "humidity": {
+    "word": "humidity",
+    "definition": "the amount of water vapour in the air",
+    "variations": [
+      "humidity"
+    ],
+    "emoji": "💧🌫️"
+  },
+  "intercardinal directions": {
+    "word": "intercardinal directions",
+    "definition": "the directions found between the main directions, such as northeast and southwest",
+    "variations": [
+      "intercardinal direction",
+      "intercardinal directions"
+    ],
+    "emoji": "🧭↗️↙️"
+  },
+  "interface": {
+    "word": "interface",
+    "definition": "a device or program that allows a user to communicate with a computer",
+    "variations": [
+      "interface",
+      "interfaces"
+    ],
+    "emoji": "💻🔗"
+  },
+  "international boundary": {
+    "word": "international boundary",
+    "definition": "a border between two countries",
+    "variations": [
+      "international boundary",
+      "international boundaries"
+    ],
+    "emoji": "🌍🚧"
+  },
+  "internet": {
+    "word": "internet",
+    "definition": "The internet is the worldwide system that connects computers and devices so people can share information.",
+    "variations": [
+      "internet"
+    ],
+    "emoji": "🌐💻"
+  },
+  "interpret": {
+    "word": "interpret",
+    "definition": "to understand the meaning of information, signs, or symbols",
+    "variations": [
+      "interpret",
+      "interprets",
+      "interpreted",
+      "interpreting",
+      "interpretation"
+    ],
+    "emoji": "🧠🔍"
+  },
+  "key": {
+    "word": "key",
+    "definition": "the part of a map that explains what the symbols and colours mean",
+    "variations": [
+      "keys"
+    ],
+    "emoji": "🗝️🗺️"
+  },
+  "kilometre": {
+    "word": "kilometre",
+    "definition": "a unit for measuring distance equal to 1,000 metres",
+    "variations": [
+      "kilometre",
+      "kilometres",
+      "km"
+    ],
+    "emoji": "📏🛣️"
+  },
+  "landscape": {
+    "word": "landscape",
+    "definition": "the way an area of land looks, including its natural features",
+    "variations": [
+      "landscape",
+      "landscapes"
+    ],
+    "emoji": "🏞️"
+  },
+  "layer": {
+    "word": "layer",
+    "definition": "one level of information on a digital map",
+    "variations": [
+      "layer",
+      "layers"
+    ],
+    "emoji": "🗂️🗺️"
+  },
+  "layout": {
+    "word": "layout",
+    "definition": "A layout is the way things are arranged in a place or on a page.",
+    "variations": [
+      "layout",
+      "layouts"
+    ],
+    "emoji": "📐🏫"
+  },
+  "linear scale": {
+    "word": "linear scale",
+    "definition": "a line on a map that shows real distance on the ground",
+    "variations": [
+      "linear scale",
+      "linear scales"
+    ],
+    "emoji": "📏📍"
+  },
+  "location": {
+    "word": "location",
+    "definition": "the place where something is found",
+    "variations": [
+      "location",
+      "locations"
+    ],
+    "emoji": "📍🗺️"
+  },
+  "magnetized needle": {
+    "word": "magnetized needle",
+    "definition": "a needle made magnetic so it points in a certain direction, usually North",
+    "variations": [
+      "magnetized needle",
+      "magnetized needles"
+    ],
+    "emoji": "🧲🧭"
+  },
+  "man-made features": {
+    "word": "man-made features",
+    "definition": "things built by people, such as roads and buildings",
+    "variations": [
+      "man-made feature",
+      "man-made features"
+    ],
+    "emoji": "🛣️🏢"
+  },
+  "map": {
+    "word": "map",
+    "definition": "a drawing of an area that shows places and features on the Earth’s surface",
+    "variations": [
+      "maps"
+    ],
+    "emoji": "🗺️"
+  },
+  "map distance": {
+    "word": "map distance",
+    "definition": "the distance between places as measured on a map",
+    "variations": [
+      "map distance",
+      "map distances"
+    ],
+    "emoji": "🗺️📐"
+  },
+  "map drawing": {
+    "word": "map drawing",
+    "definition": "the work of making a map to show places and features",
+    "variations": [
+      "map drawing",
+      "map drawings"
+    ],
+    "emoji": "🗺️✏️"
+  },
+  "map key": {
+    "word": "map key",
+    "definition": "the part of a map that explains what the symbols mean",
+    "variations": [
+      "map key",
+      "map keys",
+      "key"
+    ],
+    "emoji": "🗺️🔑"
+  },
+  "map symbol": {
+    "word": "map symbol",
+    "definition": "a small drawing used on a map to represent a real object or feature",
+    "variations": [
+      "map symbol",
+      "map symbols"
+    ],
+    "emoji": "🗺️🔺"
+  },
+  "maritime navigation": {
+    "word": "maritime navigation",
+    "definition": "the skill of finding direction and planning movement on seas or oceans",
+    "variations": [
+      "maritime navigation"
+    ],
+    "emoji": "🚢🧭"
+  },
+  "measure": {
+    "word": "measure",
+    "definition": "to find out the size, length, or distance of something",
+    "variations": [
+      "measure",
+      "measures",
+      "measured",
+      "measuring",
+      "measurement"
+    ],
+    "emoji": "📏✏️"
+  },
+  "metre": {
+    "word": "metre",
+    "definition": "a basic unit for measuring length or distance",
+    "variations": [
+      "metre",
+      "metres",
+      "m"
+    ],
+    "emoji": "📏"
+  },
+  "midday": {
+    "word": "midday",
+    "definition": "the middle of the day, around noon",
+    "variations": [
+      "midday"
+    ],
+    "emoji": "☀️"
+  },
+  "mountain": {
+    "word": "mountain",
+    "definition": "a very high area of land that rises above the land around it",
+    "variations": [
+      "mountain",
+      "mountains"
+    ],
+    "emoji": "⛰️"
+  },
+  "mouse": {
+    "word": "mouse",
+    "definition": "a handheld input device used to control a computer pointer and click on items",
+    "variations": [
+      "mouse",
+      "mice"
+    ],
+    "emoji": "🖱️💻"
+  },
+  "nationalism": {
+    "word": "nationalism",
+    "definition": "strong support and pride for one’s own nation",
+    "variations": [
+      "nationalism"
+    ],
+    "emoji": "🏳️🌍"
+  },
+  "natural features": {
+    "word": "natural features",
+    "definition": "parts of the earth that are made by nature, such as rivers, mountains, and lakes",
+    "variations": [
+      "natural feature",
+      "natural features"
+    ],
+    "emoji": "🌿⛰️🌊"
+  },
+  "navigational tools": {
+    "word": "navigational tools",
+    "definition": "tools used to help people find directions and move from one place to another",
+    "variations": [
+      "navigational tool",
+      "navigational tools"
+    ],
+    "emoji": "🧭🗺️"
+  },
+  "neighbouring": {
+    "word": "neighbouring",
+    "definition": "Neighbouring means near or next to another place.",
+    "variations": [
+      "neighbouring",
+      "neighbour"
+    ],
+    "emoji": "🏘️📍"
+  },
+  "network": {
+    "word": "network",
+    "definition": "a system of connected lines or routes",
+    "variations": [
+      "network",
+      "networks"
+    ],
+    "emoji": "🛣️🔗"
+  },
+  "north arrow": {
+    "word": "north arrow",
+    "definition": "a mark on a map that shows where north is",
+    "variations": [
+      "north arrows"
+    ],
+    "emoji": "⬆️🧭"
+  },
+  "North direction": {
+    "word": "North direction",
+    "definition": "the direction north shown on a map, usually with an arrow, to help readers know other directions",
+    "variations": [
+      "North direction"
+    ],
+    "emoji": "🧭⬆️"
+  },
+  "orient": {
+    "word": "orient",
+    "definition": "to turn yourself or something so it faces a particular direction",
+    "variations": [
+      "orient",
+      "oriented",
+      "orienting"
+    ],
+    "emoji": "🧭↩️"
+  },
+  "orientation": {
+    "word": "orientation",
+    "definition": "the direction or position of something, such as portrait or landscape on paper",
+    "variations": [
+      "orientation",
+      "orientations"
+    ],
+    "emoji": "📄↔️"
+  },
+  "oriented": {
+    "word": "oriented",
+    "definition": "Oriented means placed or turned in the correct direction.",
+    "variations": [
+      "orient",
+      "oriented",
+      "orientation"
+    ],
+    "emoji": "🧭➡️"
+  },
+  "outline": {
+    "word": "outline",
+    "definition": "the outer shape or edge of something",
+    "variations": [
+      "outline",
+      "outlines"
+    ],
+    "emoji": "✏️🗺️"
+  },
+  "overhead": {
+    "word": "overhead",
+    "definition": "above your head or directly above you",
+    "variations": [
+      "overhead"
+    ],
+    "emoji": "☀️⬆️"
+  },
+  "parallel": {
+    "word": "parallel",
+    "definition": "side by side and always the same distance apart",
+    "variations": [
+      "parallel",
+      "parallels"
+    ],
+    "emoji": "📏〰️"
+  },
+  "PDF": {
+    "word": "PDF",
+    "definition": "a computer file format used for saving and sharing documents",
+    "variations": [
+      "PDF",
+      "PDFs"
+    ],
+    "emoji": "📄💾"
+  },
+  "physical visit": {
+    "word": "physical visit",
+    "definition": "going to a place in person to see it for yourself",
+    "variations": [
+      "physical visit",
+      "physical visits"
+    ],
+    "emoji": "🚶📍"
+  },
+  "plain": {
+    "word": "plain",
+    "definition": "a large area of flat land",
+    "variations": [
+      "plain",
+      "plains"
+    ],
+    "emoji": "🌾🟩"
+  },
+  "plateau": {
+    "word": "plateau",
+    "definition": "a high area of land with a flat top",
+    "variations": [
+      "plateau",
+      "plateaus"
+    ],
+    "emoji": "⛰️⬜"
+  },
+  "playground": {
+    "word": "playground",
+    "definition": "A playground is an outdoor place where children play.",
+    "variations": [
+      "playground",
+      "playgrounds"
+    ],
+    "emoji": "🏫⚽🛝"
+  },
+  "point": {
+    "word": "point",
+    "definition": "a marked place or position on a map",
+    "variations": [
+      "point",
+      "points"
+    ],
+    "emoji": "📍"
+  },
+  "policy": {
+    "word": "policy",
+    "definition": "an official plan or rule used to guide decisions and actions",
+    "variations": [
+      "policy",
+      "policies"
+    ],
+    "emoji": "📜🏛️"
+  },
+  "political map": {
+    "word": "political map",
+    "definition": "a map that shows countries, regions, districts, and their boundaries",
+    "variations": [
+      "political maps"
+    ],
+    "emoji": "🗺️🏛️"
+  },
+  "population": {
+    "word": "population",
+    "definition": "all the people living in a place",
+    "variations": [
+      "populations"
+    ],
+    "emoji": "👥🏘️"
+  },
+  "population density": {
+    "word": "population density",
+    "definition": "the number of people living in a particular area",
+    "variations": [
+      "population density",
+      "population densities"
+    ],
+    "emoji": "👥📍"
+  },
+  "population distribution": {
+    "word": "population distribution",
+    "definition": "the way people are spread across an area",
+    "variations": [
+      "population distribution"
+    ],
+    "emoji": "👥📍"
+  },
+  "proportion": {
+    "word": "proportion",
+    "definition": "the correct size relationship between one thing and another",
+    "variations": [
+      "proportion",
+      "proportions"
+    ],
+    "emoji": "⚖️📐"
+  },
+  "protractor": {
+    "word": "protractor",
+    "definition": "A protractor is a tool used to measure and draw angles.",
+    "variations": [
+      "protractor",
+      "protractors"
+    ],
+    "emoji": "📐📏"
+  },
+  "purpose": {
+    "word": "purpose",
+    "definition": "the reason why something is done or used",
+    "variations": [
+      "purpose",
+      "purposes"
+    ],
+    "emoji": "🎯"
+  },
+  "rainfall": {
+    "word": "rainfall",
+    "definition": "rain that falls in an area over a period of time",
+    "variations": [
+      "rainfall"
+    ],
+    "emoji": "🌧️💧"
+  },
+  "ratio": {
+    "word": "ratio",
+    "definition": "a way of comparing two amounts or distances using numbers",
+    "variations": [
+      "ratio",
+      "ratios"
+    ],
+    "emoji": "➗📏"
+  },
+  "ratio scale": {
+    "word": "ratio scale",
+    "definition": "a map scale written as numbers, such as 1:50000, to show the relationship between map distance and real distance",
+    "variations": [
+      "ratio scale",
+      "ratio scales"
+    ],
+    "emoji": "🔢🗺️"
+  },
+  "reference point": {
+    "word": "reference point",
+    "definition": "a place or mark used to help show position or direction",
+    "variations": [
+      "reference point",
+      "reference points"
+    ],
+    "emoji": "📌🧭"
+  },
+  "region": {
+    "word": "region",
+    "definition": "a large area of a country or the world with clear boundaries",
+    "variations": [
+      "regions"
+    ],
+    "emoji": "🗺️📍"
+  },
+  "regional": {
+    "word": "regional",
+    "definition": "Regional means related to a region, which is a large area of a country or the world.",
+    "variations": [
+      "regional",
+      "region",
+      "regions"
+    ],
+    "emoji": "🗺️📍"
+  },
+  "regional boundary": {
+    "word": "regional boundary",
+    "definition": "a line that separates one region from another",
+    "variations": [
+      "regional boundary",
+      "regional boundaries"
+    ],
+    "emoji": "📍➖"
+  },
+  "register": {
+    "word": "register",
+    "definition": "To register means to sign up by giving your details so you can use a service.",
+    "variations": [
+      "register",
+      "registers",
+      "registered",
+      "registering"
+    ],
+    "emoji": "📝✅"
+  },
+  "reliable source": {
+    "word": "reliable source",
+    "definition": "a source of information that can be trusted to be correct",
+    "variations": [
+      "reliable source",
+      "reliable sources"
+    ],
+    "emoji": "📚✅"
+  },
+  "relief": {
+    "word": "relief",
+    "definition": "the height and shape of the land surface, such as mountains, hills, and plains",
+    "variations": [
+      "relief"
+    ],
+    "emoji": "⛰️🗺️"
+  },
+  "represent": {
+    "word": "represent",
+    "definition": "to show something in a drawing, symbol, or picture",
+    "variations": [
+      "represent",
+      "represents",
+      "represented",
+      "representing"
+    ],
+    "emoji": "✏️🗺️"
+  },
+  "representative fraction": {
+    "word": "representative fraction",
+    "definition": "a way of showing map scale with numbers, such as 1:50000",
+    "variations": [
+      "representative fraction",
+      "representative fractions"
+    ],
+    "emoji": "🔢🗺️"
+  },
+  "researcher": {
+    "word": "researcher",
+    "definition": "a person who studies something carefully to learn more about it",
+    "variations": [
+      "researcher",
+      "researchers"
+    ],
+    "emoji": "🔍📚"
+  },
+  "reserve": {
+    "word": "reserve",
+    "definition": "A reserve is a protected area kept safe for animals, plants, or other natural features.",
+    "variations": [
+      "reserve",
+      "reserves"
+    ],
+    "emoji": "🌿🦓🗺️"
+  },
+  "resource": {
+    "word": "resource",
+    "definition": "something useful that people can use, such as land, water, or money",
+    "variations": [
+      "resource",
+      "resources"
+    ],
+    "emoji": "💧🌳📦"
+  },
+  "river": {
+    "word": "river",
+    "definition": "a natural flow of water moving across the land",
+    "variations": [
+      "river",
+      "rivers"
+    ],
+    "emoji": "🌊"
+  },
+  "route": {
+    "word": "route",
+    "definition": "the path or way from one place to another",
+    "variations": [
+      "route",
+      "routes"
+    ],
+    "emoji": "🛣️➡️"
+  },
+  "ruler": {
+    "word": "ruler",
+    "definition": "a straight tool used to measure length or distance",
+    "variations": [
+      "ruler",
+      "rulers"
+    ],
+    "emoji": "📏"
+  },
+  "scale": {
+    "word": "scale",
+    "definition": "the relationship between distance on a map and real distance on the ground",
+    "variations": [
+      "scales"
+    ],
+    "emoji": "📐🗺️"
+  },
+  "search bar": {
+    "word": "search bar",
+    "definition": "A search bar is the space where you type words to look for information online.",
+    "variations": [
+      "search bar",
+      "search bars"
+    ],
+    "emoji": "🔎⌨️"
+  },
+  "segment": {
+    "word": "segment",
+    "definition": "a short part of a line or distance",
+    "variations": [
+      "segment",
+      "segments"
+    ],
+    "emoji": "➖📐"
+  },
+  "settlement": {
+    "word": "settlement",
+    "definition": "a place where people live, such as a village, town, or city",
+    "variations": [
+      "settlement",
+      "settlements"
+    ],
+    "emoji": "🏘️🏠"
+  },
+  "shade": {
+    "word": "shade",
+    "definition": "To shade means to colour part of a drawing or map, often lightly.",
+    "variations": [
+      "shade",
+      "shades",
+      "shaded",
+      "shading"
+    ],
+    "emoji": "✏️🖍️"
+  },
+  "shadow": {
+    "word": "shadow",
+    "definition": "a dark shape made when light is blocked by a person or object",
+    "variations": [
+      "shadow",
+      "shadows"
+    ],
+    "emoji": "🌑"
+  },
+  "sketch": {
+    "word": "sketch",
+    "definition": "To sketch means to draw something quickly and simply.",
+    "variations": [
+      "sketch",
+      "sketches",
+      "sketched",
+      "sketching"
+    ],
+    "emoji": "✏️📝"
+  },
+  "slope": {
+    "word": "slope",
+    "definition": "land that goes up or down",
+    "variations": [
+      "slopes"
+    ],
+    "emoji": "⛰️↗️"
+  },
+  "smartphone": {
+    "word": "smartphone",
+    "definition": "a mobile phone that can use apps, the internet, and digital maps",
+    "variations": [
+      "smartphone",
+      "smartphones"
+    ],
+    "emoji": "📱🌐"
+  },
+  "social services": {
+    "word": "social services",
+    "definition": "important public services that help people, such as schools, hospitals, and police posts",
+    "variations": [
+      "social service",
+      "social services"
+    ],
+    "emoji": "🏥🏫🚓"
+  },
+  "software": {
+    "word": "software",
+    "definition": "programs used on a computer or other electronic device",
+    "variations": [
+      "software",
+      "softwares"
+    ],
+    "emoji": "💻🧩"
+  },
+  "source": {
+    "word": "source",
+    "definition": "the person or organisation where the map information came from",
+    "variations": [
+      "source",
+      "sources"
+    ],
+    "emoji": "📚🏢"
+  },
+  "steep": {
+    "word": "steep",
+    "definition": "rising or falling sharply, like the side of a mountain",
+    "variations": [
+      "steep",
+      "steeper",
+      "steepest"
+    ],
+    "emoji": "⛰️📐"
+  },
+  "straight distance": {
+    "word": "straight distance",
+    "definition": "the distance between two points measured in a direct line",
+    "variations": [
+      "straight distance",
+      "straight distances"
+    ],
+    "emoji": "📏➡️"
+  },
+  "string": {
+    "word": "string",
+    "definition": "a long thin piece of material that can be used to measure curved distance",
+    "variations": [
+      "string",
+      "strings"
+    ],
+    "emoji": "🧵"
+  },
+  "sunrise": {
+    "word": "sunrise",
+    "definition": "the time in the morning when the sun first appears",
+    "variations": [
+      "sunrise",
+      "sunrises"
+    ],
+    "emoji": "🌅"
+  },
+  "sunset": {
+    "word": "sunset",
+    "definition": "the time in the evening when the sun goes down and disappears",
+    "variations": [
+      "sunset",
+      "sunsets"
+    ],
+    "emoji": "🌇"
+  },
+  "surface": {
+    "word": "surface",
+    "definition": "the outside or top part of something, such as the earth",
+    "variations": [
+      "surface",
+      "surfaces"
+    ],
+    "emoji": "🌍"
+  },
+  "surveyor": {
+    "word": "surveyor",
+    "definition": "a person who measures and maps land",
+    "variations": [
+      "surveyor",
+      "surveyors",
+      "land surveyor",
+      "land surveyors"
+    ],
+    "emoji": "📏🗺️"
+  },
+  "surveyors": {
+    "word": "surveyors",
+    "definition": "people who measure and map land",
+    "variations": [
+      "surveyor",
+      "surveyors"
+    ],
+    "emoji": "📏🗺️"
+  },
+  "symbol": {
+    "word": "symbol",
+    "definition": "a sign or picture used on a map to stand for something real",
+    "variations": [
+      "symbols"
+    ],
+    "emoji": "🔣🗺️"
+  },
+  "tablet": {
+    "word": "tablet",
+    "definition": "a flat portable computer with a touch screen",
+    "variations": [
+      "tablet",
+      "tablets"
+    ],
+    "emoji": "📱💻"
+  },
+  "technology": {
+    "word": "technology",
+    "definition": "Technology means tools, machines, and systems made using science to help people do things.",
+    "variations": [
+      "technology",
+      "technologies"
+    ],
+    "emoji": "💻⚙️"
+  },
+  "terrain": {
+    "word": "terrain",
+    "definition": "the shape and condition of the land in an area",
+    "variations": [
+      "terrain"
+    ],
+    "emoji": "🏞️"
+  },
+  "thematic map": {
+    "word": "thematic map",
+    "definition": "a map that shows one special kind of information about a place, such as population, rainfall, soils, or vegetation",
+    "variations": [
+      "thematic map",
+      "thematic maps"
+    ],
+    "emoji": "🗺️📊"
+  },
+  "thread": {
+    "word": "thread",
+    "definition": "a thin string used for measuring curved lines on a map",
+    "variations": [
+      "thread",
+      "threads"
+    ],
+    "emoji": "🧵"
+  },
+  "title": {
+    "word": "title",
+    "definition": "the name given to something such as a map, book, or picture",
+    "variations": [
+      "title",
+      "titles"
+    ],
+    "emoji": "🏷️📝"
+  },
+  "topographical map": {
+    "word": "topographical map",
+    "definition": "a map that shows both natural and human-made features of an area, often including height and shape of the land",
+    "variations": [
+      "topographical map",
+      "topographical maps"
+    ],
+    "emoji": "⛰️🗺️"
+  },
+  "touch screen": {
+    "word": "touch screen",
+    "definition": "a screen that you control by touching it with your finger",
+    "variations": [
+      "touch screen",
+      "touch screens"
+    ],
+    "emoji": "📱👆"
+  },
+  "tourism": {
+    "word": "tourism",
+    "definition": "traveling to places for enjoyment or learning",
+    "variations": [
+      "tourism"
+    ],
+    "emoji": "🧳📸"
+  },
+  "tourist attractions": {
+    "word": "tourist attractions",
+    "definition": "places that people like to visit for interest, beauty, or enjoyment",
+    "variations": [
+      "tourist attraction",
+      "tourist attractions"
+    ],
+    "emoji": "📸🧳🌍"
+  },
+  "trace": {
+    "word": "trace",
+    "definition": "to follow a line or path carefully",
+    "variations": [
+      "trace",
+      "tracing",
+      "traced",
+      "traces"
+    ],
+    "emoji": "✏️🗺️"
+  },
+  "traditional methods": {
+    "word": "traditional methods",
+    "definition": "usual or older ways of doing something, without digital tools",
+    "variations": [
+      "traditional method",
+      "traditional methods"
+    ],
+    "emoji": "📄🧵"
+  },
+  "transportation": {
+    "word": "transportation",
+    "definition": "the movement of people or goods from one place to another",
+    "variations": [
+      "transportation"
+    ],
+    "emoji": "🚗🚆"
+  },
+  "traveller": {
+    "word": "traveller",
+    "definition": "a person who goes from one place to another",
+    "variations": [
+      "traveller",
+      "travellers"
+    ],
+    "emoji": "🧳🚗"
+  },
+  "up-to-date": {
+    "word": "up-to-date",
+    "definition": "having the newest and most correct information",
+    "variations": [
+      "up-to-date"
+    ],
+    "emoji": "🆕✔️"
+  },
+  "updated": {
+    "word": "updated",
+    "definition": "changed to include the newest information",
+    "variations": [
+      "update",
+      "updates",
+      "updated",
+      "updating"
+    ],
+    "emoji": "🔄"
+  },
+  "urban planning": {
+    "word": "urban planning",
+    "definition": "the planning of towns and cities, including where houses, roads, schools, and services should be placed",
+    "variations": [
+      "urban planning"
+    ],
+    "emoji": "🏙️📐"
+  },
+  "valley": {
+    "word": "valley",
+    "definition": "a low area of land between hills or mountains",
+    "variations": [
+      "valleys"
+    ],
+    "emoji": "🏞️"
+  },
+  "vegetation": {
+    "word": "vegetation",
+    "definition": "plants growing in an area",
+    "variations": [
+      "vegetation"
+    ],
+    "emoji": "🌿🌳"
+  },
+  "ward": {
+    "word": "ward",
+    "definition": "A ward is a small administrative area that includes several villages or streets.",
+    "variations": [
+      "ward",
+      "wards"
+    ],
+    "emoji": "🗺️🏘️"
+  },
+  "weather forecasting": {
+    "word": "weather forecasting",
+    "definition": "the work of predicting what the weather will be like",
+    "variations": [
+      "weather forecasting"
+    ],
+    "emoji": "🌦️📡"
+  }
+}
