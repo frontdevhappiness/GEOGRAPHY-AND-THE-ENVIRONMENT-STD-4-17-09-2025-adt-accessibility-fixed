@@ -72,7 +72,7 @@ This file records the validation, accessibility, visual, audio, and bundle-maint
 - [x] Standardized figure, activity, note, exercise, list, and table alignment.
 - [x] Added a signature-specific exception so the global image-centering rule does not move the signature.
 - [x] Centred the inner acknowledgement and signature column on `pg005_sec001.html`.
-- [x] Centred the introduction text, QR code, and publisher column on `pg006_sec001.html`.
+- [x] Centred the introduction content column on `pg006_sec001.html` while keeping the QR code left-aligned beneath the resources text, as in the PDF.
 
 ### 8. Page-edge styling
 
@@ -119,7 +119,7 @@ This file records the validation, accessibility, visual, audio, and bundle-maint
 | Abbreviations and numbers were pronounced incorrectly | Replaced ambiguous narration scripts with fully spoken wording and regenerated affected audio. | `texts.json`, `audios.json`, MP3 files |
 | Font families and sizes were inconsistent | Bundled Liberation Sans as an offline Arimo-compatible family and applied a responsive shared type scale. | `assets/fonts.css`, `assets/fonts/`, `assets/validation-overrides.css` |
 | Figures, tables, and page content were unevenly aligned | Added shared centring and spacing rules, plus page-specific exceptions where the PDF required left alignment. | `assets/validation-overrides.css`, affected page HTML |
-| Page 5 and page 6 content columns were anchored left | Added `mx-auto` to the constrained inner columns while preserving their internal text alignment. | `pg005_sec001.html`, `pg006_sec001.html` |
+| Page 5 and page 6 content columns were anchored left | Added `mx-auto` to the constrained inner columns while preserving their internal text alignment; added a QR-specific margin override so the page 6 QR code remains left-aligned as in the PDF. | `pg005_sec001.html`, `pg006_sec001.html` |
 | The source page-edge texture was missing | Extracted the fine-grain texture into a reusable PNG and applied alternating left/right frame classes based on page parity. | `images/page_edge_texture.png`, shared CSS, 118 page wrappers |
 | Old pale-blue side panels competed with the new frame | Removed the 20 narrow decorative side-panel elements while retaining content and bottom-page designs. | 20 affected page HTML files |
 | Standalone red watermarks remained visible | Removed 13 “FOR ONLINE READING ONLY” DOM elements and two “FOR ONLINE USE ONLY” DOM elements. | 15 affected HTML overlays |
