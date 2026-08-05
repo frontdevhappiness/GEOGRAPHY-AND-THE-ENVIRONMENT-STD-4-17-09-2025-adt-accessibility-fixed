@@ -1,0 +1,119 @@
+/* Validation report: one consistent type scale and alignment system. */
+:root {
+  --adt-body-size: 22px;
+  --adt-heading-size: 30px;
+  --adt-font-family: "Arimo Compatible", Arimo, Arial, "Liberation Sans", sans-serif;
+}
+
+/* Fine-grain outer-page texture sampled from the source PDF. */
+#content.adt-page-frame {
+  position: relative;
+  isolation: isolate;
+}
+
+#content.adt-page-frame::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 40;
+  width: clamp(16px, 5%, 48px);
+  background-image: url("../images/page_edge_texture.png");
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  pointer-events: none;
+}
+
+#content.adt-page-frame.adt-frame-left::before {
+  left: 0;
+}
+
+#content.adt-page-frame.adt-frame-right::before {
+  right: 0;
+  transform: scaleX(-1);
+}
+
+#content section,
+#content section :where(*) {
+  font-family: var(--adt-font-family) !important;
+  font-size: var(--adt-body-size) !important;
+  line-height: 1.45 !important;
+}
+
+#content section :where(h1, h2, h3, h4, h5, h6, [role="heading"], [data-adt-heading-text="true"]),
+#content section :where(h1, h2, h3, h4, h5, h6, [role="heading"], [data-adt-heading-text="true"]) :where(*) {
+  font-size: var(--adt-heading-size) !important;
+  line-height: 1.2 !important;
+}
+
+#content section :where(p, li, dt, dd, blockquote) {
+  text-align: left;
+}
+
+#content section :where(figure) {
+  display: block;
+  width: 100%;
+  margin: 24px auto !important;
+  text-align: center;
+}
+
+#content section :where(img):not(.hidden) {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* The authorisation signature follows the source PDF's left alignment. */
+#content section img.adt-signature-image {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+#content section :where(figcaption, [data-adt-caption-text="true"]) {
+  display: block;
+  width: 100%;
+  margin: 12px auto 24px !important;
+  text-align: center !important;
+}
+
+#content section :where(table) {
+  width: 100%;
+  margin: 24px auto !important;
+  border-collapse: collapse;
+}
+
+#content section :where(th, td) {
+  padding: 12px 16px !important;
+  vertical-align: top;
+}
+
+#content section :where(.activity-option) {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --adt-body-size: 20px;
+    --adt-heading-size: 27px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --adt-body-size: 16px;
+    --adt-heading-size: 22px;
+  }
+
+  #content section,
+  #content section :where(*) {
+    line-height: 1.5 !important;
+  }
+
+  #content section :where(th, td) {
+    padding: 10px 12px !important;
+  }
+}
