@@ -28,6 +28,13 @@
     "level": 1
   },
   {
+    "section_id": "pg007_sec001",
+    "href": "pg007_sec001.html",
+    "title": "Chapter One",
+    "chapter_id": "pg007_n0003",
+    "level": 1
+  },
+  {
     "section_id": "pg008_sec001",
     "href": "pg008_sec001.html",
     "title": "Exercise 1",
@@ -114,13 +121,6 @@
   {
     "section_id": "pg018_sec001",
     "href": "pg018_sec001.html",
-    "title": "Chapter Two",
-    "chapter_id": "pg018_n0008",
-    "level": 1
-  },
-  {
-    "section_id": "pg018_sec001",
-    "href": "pg018_sec001.html",
     "title": "Questions",
     "chapter_id": "pg018_n0008",
     "level": 2
@@ -166,6 +166,13 @@
     "title": "Vocabulary",
     "chapter_id": "pg023_n0002",
     "level": 2
+  },
+  {
+    "section_id": "pg024_sec001",
+    "href": "pg024_sec001.html",
+    "title": "Chapter Two",
+    "chapter_id": "pg024_n0002",
+    "level": 1
   },
   {
     "section_id": "pg025_sec001",
@@ -219,13 +226,6 @@
   {
     "section_id": "pg033_sec001",
     "href": "pg033_sec001.html",
-    "title": "Chapter Three",
-    "chapter_id": "pg033_n0003",
-    "level": 1
-  },
-  {
-    "section_id": "pg033_sec001",
-    "href": "pg033_sec001.html",
     "title": "Activity 5",
     "chapter_id": "pg033_n0003",
     "level": 2
@@ -264,6 +264,13 @@
     "title": "Vocabulary",
     "chapter_id": "pg037_n0011",
     "level": 2
+  },
+  {
+    "section_id": "pg038_sec001",
+    "href": "pg038_sec001.html",
+    "title": "Chapter Three",
+    "chapter_id": "pg038_n0004",
+    "level": 1
   },
   {
     "section_id": "pg039_sec001",
@@ -380,13 +387,6 @@
   {
     "section_id": "pg057_sec001",
     "href": "pg057_sec001.html",
-    "title": "Chapter Four",
-    "chapter_id": "pg057_n0002",
-    "level": 1
-  },
-  {
-    "section_id": "pg057_sec001",
-    "href": "pg057_sec001.html",
     "title": "Revision exercise",
     "chapter_id": "pg057_n0002",
     "level": 2
@@ -397,6 +397,13 @@
     "title": "Vocabulary",
     "chapter_id": "pg059_n0002",
     "level": 2
+  },
+  {
+    "section_id": "pg060_sec001",
+    "href": "pg060_sec001.html",
+    "title": "Chapter Four",
+    "chapter_id": "pg060_n0002",
+    "level": 1
   },
   {
     "section_id": "pg061_sec001",
