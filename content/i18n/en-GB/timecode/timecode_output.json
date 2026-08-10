@@ -18631,6 +18631,30 @@
       }
     ]
   },
+  "pg020_q001_label": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          { "text": "Question", "start": 0.1, "end": 0.75 },
+          { "text": "number", "start": 0.75, "end": 1.4 },
+          { "text": "1", "start": 1.4, "end": 2.016 }
+        ]
+      }
+    ]
+  },
+  "pg020_q002_label": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          { "text": "Question", "start": 0.1, "end": 0.75 },
+          { "text": "number", "start": 0.75, "end": 1.4 },
+          { "text": "2", "start": 1.4, "end": 2.03 }
+        ]
+      }
+    ]
+  },
   "pg020_n0025": {
     "timecodes": [
       null,
@@ -121762,6 +121786,30 @@
             "start": 4.239999771118164,
             "end": 4.5
           }
+        ]
+      }
+    ]
+  },
+  "pg020_q001_label_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          { "text": "Question", "start": 0.1, "end": 0.75 },
+          { "text": "number", "start": 0.75, "end": 1.4 },
+          { "text": "1", "start": 1.4, "end": 2.016 }
+        ]
+      }
+    ]
+  },
+  "pg020_q002_label_easy_read": {
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          { "text": "Question", "start": 0.1, "end": 0.75 },
+          { "text": "number", "start": 0.75, "end": 1.4 },
+          { "text": "2", "start": 1.4, "end": 2.03 }
         ]
       }
     ]
