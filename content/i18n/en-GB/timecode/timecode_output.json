@@ -21239,9 +21239,19 @@
       {
         "word_timestamps": [
           {
-            "text": "9...dot",
-            "start": 0,
-            "end": 1.8600000143051147
+            "text": "Question",
+            "start": 0.5,
+            "end": 1.3
+          },
+          {
+            "text": "number",
+            "start": 1.5,
+            "end": 1.95
+          },
+          {
+            "text": "9",
+            "start": 1.95,
+            "end": 2.35
           }
         ]
       }
@@ -21336,9 +21346,19 @@
       {
         "word_timestamps": [
           {
-            "text": "10",
+            "text": "Question",
             "start": 0,
-            "end": 0.8600000143051147
+            "end": 0.6
+          },
+          {
+            "text": "number",
+            "start": 0.6,
+            "end": 1
+          },
+          {
+            "text": "10",
+            "start": 1,
+            "end": 1.5
           }
         ]
       }
@@ -124612,9 +124632,19 @@
       {
         "word_timestamps": [
           {
-            "text": "9...dot",
-            "start": 0,
-            "end": 1.8600000143051147
+            "text": "Question",
+            "start": 0.5,
+            "end": 1.3
+          },
+          {
+            "text": "number",
+            "start": 1.5,
+            "end": 1.95
+          },
+          {
+            "text": "9",
+            "start": 1.95,
+            "end": 2.35
           }
         ]
       }
@@ -124704,9 +124734,19 @@
       {
         "word_timestamps": [
           {
-            "text": "10",
+            "text": "Question",
             "start": 0,
-            "end": 0.8600000143051147
+            "end": 0.6
+          },
+          {
+            "text": "number",
+            "start": 0.6,
+            "end": 1
+          },
+          {
+            "text": "10",
+            "start": 1,
+            "end": 1.5
           }
         ]
       }
