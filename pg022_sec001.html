@@ -16,6 +16,11 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      .adt-table-word-highlight {
+        background-color: #fde047;
+        border-radius: 0.15em;
+        box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.2);
+      }
     </style>    <link href="./assets/validation-overrides.css" rel="stylesheet">
 </head>
 
@@ -30,7 +35,8 @@
       </h1>
 
       <p data-adt-standard-text="true" class="mb-2 text-[22px] leading-snug max-lg:text-[19px] max-sm:text-[16px]">
-        <span data-id="pg022_n0015" class="mr-1">8.</span>
+        <span aria-hidden="true" class="mr-1">8.</span>
+        <span data-id="pg022_n0015" class="sr-only">Question number 8. </span>
         <span data-id="pg022_n0016">
           Match the items in column A with those in column B to produce a meaningful statement
         </span>
@@ -42,14 +48,14 @@
             Table. Matching map terms with their meanings. The table has three columns and seven data rows. Column one is Number. Column two is Column A. Column three is Column B. Column A contains five numbered items: Roman numeral one, Topographical maps; Roman numeral two, Frame; Roman numeral three, Essential elements of a map; Roman numeral four, Scale; Roman numeral five, Surfaces where a map can be drawn. Column B contains seven choices: A, on paper, land, a piece of cloth, and a computer; B, represent the features of the Earth’s surface; C, the relationship between the distance presented on the map and the real ground distance; D, scale, frame, North direction, title, key, source, and gridlines; E, presents the boundaries of a map; F, should be easy to read for map users; G, explains the symbols and signs used on the map. Match each item in Column A with the correct choice in Column B.
           </caption>
           <colgroup>
-            <col class="w-[10%]">
-            <col class="w-[32%]">
-            <col class="w-[58%]">
+            <col style="width: 16%">
+            <col style="width: 32%">
+            <col style="width: 52%">
           </colgroup>
 
           <thead>
             <tr class="bg-[#dcecf7]">
-              <th class="border border-neutral-700 px-2 py-1 text-left font-bold">
+              <th class="border border-neutral-700 px-2 py-1 text-left font-bold" style="white-space: nowrap">
                 <span data-id="pg022_n0020">Number</span>
               </th>
 
@@ -204,6 +210,143 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
+    <script>
+      (() => {
+        const table = document.querySelector('section[data-section-id="pg022_sec001"] table');
+        const caption = table?.querySelector('caption[data-id="pg022_n0072"]');
+        if (!table || !caption) return;
+
+        const passages = [
+          { phrase: 'Column A', selector: 'thead th:nth-child(2)' },
+          { phrase: 'Column B', selector: 'thead th:nth-child(3)' },
+          { phrase: 'Topographical maps', selector: '[data-activity-item="item-1"]' },
+          { phrase: 'Frame', selector: '[data-activity-item="item-2"]' },
+          { phrase: 'Essential elements of a map', selector: '[data-activity-item="item-3"]' },
+          { phrase: 'Scale', selector: '[data-activity-item="item-4"]' },
+          { phrase: 'Surfaces where a map can be drawn', selector: '[data-activity-item="item-5"]' },
+          { phrase: 'A on paper land a piece of cloth and a computer', selector: '#target-1 > span[data-id]' },
+          { phrase: 'B represent the features of the Earth’s surface', selector: '#target-2 > span[data-id]' },
+          { phrase: 'C the relationship between the distance presented on the map and the real ground distance', selector: '#target-3 > span[data-id]' },
+          { phrase: 'D scale frame North direction title key source and gridlines', selector: '#target-4 > span[data-id]' },
+          { phrase: 'E presents the boundaries of a map', selector: '#target-5 > span[data-id]' },
+          { phrase: 'F should be easy to read for map users', selector: '#target-6 > span[data-id]' },
+          { phrase: 'G explains the symbols and signs used on the map', selector: '#target-7 > span[data-id]' },
+        ];
+
+        const tokenPattern = /[\p{L}\p{N}\p{M}]+(?:[’'-][\p{L}\p{N}\p{M}]+)*/gu;
+        const tokens = (text) => Array.from(String(text || '').matchAll(tokenPattern), (match) => match[0].toLocaleLowerCase());
+
+        const clearHighlight = () => {
+          table.querySelectorAll('.adt-table-word-highlight').forEach((word) => {
+            word.classList.remove('adt-table-word-highlight');
+          });
+        };
+
+        const wrapVisibleWords = (root) => {
+          root.querySelectorAll('.adt-table-word').forEach((word) => {
+            word.replaceWith(document.createTextNode(word.textContent || ''));
+          });
+          root.normalize();
+
+          const textNodes = [];
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              if (!node.textContent?.trim()) return NodeFilter.FILTER_REJECT;
+              if (node.parentElement?.closest('.validation-mark, .dropzone-slot')) return NodeFilter.FILTER_REJECT;
+              return NodeFilter.FILTER_ACCEPT;
+            },
+          });
+          for (let node = walker.nextNode(); node; node = walker.nextNode()) textNodes.push(node);
+
+          const visibleWords = [];
+          textNodes.forEach((node) => {
+            const text = node.textContent || '';
+            const fragment = document.createDocumentFragment();
+            let offset = 0;
+            for (const match of text.matchAll(tokenPattern)) {
+              const index = match.index || 0;
+              if (index > offset) fragment.append(document.createTextNode(text.slice(offset, index)));
+              const word = document.createElement('span');
+              word.className = 'adt-table-word';
+              word.textContent = match[0];
+              fragment.append(word);
+              visibleWords.push({ token: match[0].toLocaleLowerCase(), word });
+              offset = index + match[0].length;
+            }
+            if (offset < text.length) fragment.append(document.createTextNode(text.slice(offset)));
+            node.replaceWith(fragment);
+          });
+          return visibleWords;
+        };
+
+        const findSequence = (source, sequence, fromIndex) => {
+          for (let start = fromIndex; start <= source.length - sequence.length; start += 1) {
+            if (sequence.every((token, index) => source[start + index] === token)) return start;
+          }
+          return -1;
+        };
+
+        let captionWasWrapped = false;
+        let wordMap = new Map();
+
+        const buildWordMap = () => {
+          const captionTokens = tokens(caption.textContent);
+          const nextMap = new Map();
+          let cursor = 0;
+
+          passages.forEach(({ phrase, selector }) => {
+            const phraseTokens = tokens(phrase);
+            const start = findSequence(captionTokens, phraseTokens, cursor);
+            const target = table.querySelector(selector);
+            if (start < 0 || !target) return;
+            cursor = start + phraseTokens.length;
+
+            const visibleWords = wrapVisibleWords(target);
+            let visibleIndex = 0;
+            phraseTokens.forEach((token, phraseIndex) => {
+              while (visibleIndex < visibleWords.length && visibleWords[visibleIndex].token !== token) visibleIndex += 1;
+              if (visibleIndex >= visibleWords.length) return;
+              nextMap.set(start + phraseIndex, visibleWords[visibleIndex].word);
+              visibleIndex += 1;
+            });
+          });
+
+          wordMap = nextMap;
+        };
+
+        let frame = 0;
+        const synchronizeHighlight = () => {
+          frame = 0;
+          const captionWords = caption.querySelectorAll('[data-word-index]');
+          const captionIsWrapped = captionWords.length > 0;
+          if (captionIsWrapped && !captionWasWrapped) buildWordMap();
+          captionWasWrapped = captionIsWrapped;
+
+          clearHighlight();
+          if (!captionIsWrapped) {
+            wordMap = new Map();
+            return;
+          }
+
+          const active = caption.querySelector('[data-word-index].bg-yellow-300');
+          const activeIndex = Number(active?.getAttribute('data-word-index'));
+          const visibleWord = Number.isInteger(activeIndex) ? wordMap.get(activeIndex) : null;
+          if (visibleWord?.isConnected) visibleWord.classList.add('adt-table-word-highlight');
+        };
+
+        const scheduleSynchronization = () => {
+          if (frame) return;
+          frame = requestAnimationFrame(synchronizeHighlight);
+        };
+
+        new MutationObserver(scheduleSynchronization).observe(caption, {
+          attributes: true,
+          attributeFilter: ['class'],
+          childList: true,
+          subtree: true,
+        });
+      })();
+    </script>
     <script src="./assets/offline-preloader.js"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>

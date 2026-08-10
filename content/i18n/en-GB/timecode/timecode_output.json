@@ -20542,9 +20542,19 @@
       {
         "word_timestamps": [
           {
+            "text": "Question",
+            "start": 0.5,
+            "end": 1.2
+          },
+          {
+            "text": "number",
+            "start": 1.4,
+            "end": 1.9
+          },
+          {
             "text": "8",
-            "start": 0,
-            "end": 0.8600000143051147
+            "start": 1.9,
+            "end": 2.3
           }
         ]
       }
@@ -123934,9 +123944,19 @@
       {
         "word_timestamps": [
           {
+            "text": "Question",
+            "start": 0.5,
+            "end": 1.2
+          },
+          {
+            "text": "number",
+            "start": 1.4,
+            "end": 1.9
+          },
+          {
             "text": "8",
-            "start": 0,
-            "end": 0.8600000143051147
+            "start": 1.9,
+            "end": 2.3
           }
         ]
       }
