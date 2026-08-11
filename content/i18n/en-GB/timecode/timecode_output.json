@@ -191665,5 +191665,41 @@
         ]
       }
     ]
+  },
+  "pg048_n0010_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+  },
+  "pg048_n0011_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+  },
+  "pg048_n0012_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+  },
+  "pg048_n0013_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+  },
+  "pg048_n0014_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+  },
+  "pg048_n0015_label": {
+    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
+  },
+  "pg048_n0010_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+  },
+  "pg048_n0011_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+  },
+  "pg048_n0012_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+  },
+  "pg048_n0013_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+  },
+  "pg048_n0014_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+  },
+  "pg048_n0015_label_easy_read": {
+    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
   }
 }
