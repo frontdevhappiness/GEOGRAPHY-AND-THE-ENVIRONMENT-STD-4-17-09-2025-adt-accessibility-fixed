@@ -16,6 +16,11 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      .adt-table-word-highlight {
+        background-color: #fde047;
+        border-radius: 0.15em;
+        box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.2);
+      }
     </style>    <link href="./assets/validation-overrides.css" rel="stylesheet">
 </head>
 
@@ -189,7 +194,7 @@
 
             <td id="target-6" data-aria-id="pg093-match-zone-6" tabindex="0" role="button" aria-label="Match with option f: the drawing of maps using computer software" class="dropzone cursor-pointer border-b border-neutral-600 px-3 py-3 align-top transition focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <span data-id="pg094_n0009">
-                (f) the drawing of maps using computer softwares.
+                (f) the drawing of maps using computer software.
               </span>
 
               <div id="dropzone-6" class="dropzone-slot mt-2 empty:hidden" aria-live="polite"></div>
@@ -328,6 +333,136 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
+    <script>
+      (() => {
+        const table = document.querySelector('section[data-section-id="pg093_sec002"] table');
+        const caption = table?.querySelector('caption[data-id="pg094_n0048"]');
+        if (!table || !caption) return;
+
+        const passages = [
+          { phrase: 'Column A', selector: 'thead th:nth-child(2)' },
+          { phrase: 'Column B', selector: 'thead th:nth-child(3)' },
+          { phrase: 'Cartography', selector: '#matching-item-1' },
+          { phrase: 'Helps in identifying directions on maps', selector: '#matching-item-2' },
+          { phrase: 'Map symbols', selector: '#matching-item-3' },
+          { phrase: 'Digital map drawing', selector: '#matching-item-4' },
+          { phrase: 'Key', selector: '#matching-item-5' },
+          { phrase: 'Simple map', selector: '#matching-item-6' },
+          { phrase: 'Political Map', selector: '#matching-item-7' },
+          { phrase: 'Weather map', selector: '#matching-item-8' },
+          { phrase: 'Road map', selector: '#matching-item-9' },
+          { phrase: 'when walking towards the Sun in the morning', selector: '#matching-item-10' },
+          { phrase: 'A shadow falls to the West', selector: '#target-1 > span[data-id]' },
+          { phrase: 'B presents countries regions and districts with boundaries', selector: '#target-2 > span[data-id]' },
+          { phrase: 'C distances on a map and actual distances on the ground', selector: '#target-3 > span[data-id]' },
+          { phrase: 'D helps to find routes for travel', selector: '#target-4 > span[data-id]' },
+          { phrase: 'E presents elements of weather like rain and temperature', selector: '#target-5 > span[data-id]' },
+          { phrase: 'F the drawing of maps using computer software', selector: '#target-6 > span[data-id]' },
+          { phrase: 'G study about map drawing', selector: '#target-7 > span[data-id]' },
+          { phrase: 'H symbols used on maps to represent various features like roads buildings and water bodies', selector: '#target-8 > span[data-id]' },
+          { phrase: 'I simple drawing of an area drawn without precise measurements', selector: '#target-9 > span[data-id]' },
+          { phrase: 'J used to explain different symbols used on a map', selector: '#target-10 > span[data-id]' },
+          { phrase: 'K shadow falls to the East', selector: '#target-11 > span[data-id]' },
+          { phrase: 'L North direction', selector: '#target-12 > span[data-id]' },
+        ];
+
+        const tokenPattern = /[\p{L}\p{N}\p{M}]+(?:[’'-][\p{L}\p{N}\p{M}]+)*/gu;
+        const tokens = (text) => Array.from(String(text || '').matchAll(tokenPattern), (match) => match[0].toLocaleLowerCase());
+        const clearHighlight = () => table.querySelectorAll('.adt-table-word-highlight').forEach((word) => word.classList.remove('adt-table-word-highlight'));
+
+        const wrapVisibleWords = (root) => {
+          root.querySelectorAll('.adt-table-word').forEach((word) => word.replaceWith(document.createTextNode(word.textContent || '')));
+          root.normalize();
+          const textNodes = [];
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              if (!node.textContent?.trim()) return NodeFilter.FILTER_REJECT;
+              if (node.parentElement?.closest('.validation-mark, .dropzone-slot')) return NodeFilter.FILTER_REJECT;
+              return NodeFilter.FILTER_ACCEPT;
+            },
+          });
+          for (let node = walker.nextNode(); node; node = walker.nextNode()) textNodes.push(node);
+          const visibleWords = [];
+          textNodes.forEach((node) => {
+            const text = node.textContent || '';
+            const fragment = document.createDocumentFragment();
+            let offset = 0;
+            for (const match of text.matchAll(tokenPattern)) {
+              const index = match.index || 0;
+              if (index > offset) fragment.append(document.createTextNode(text.slice(offset, index)));
+              const word = document.createElement('span');
+              word.className = 'adt-table-word';
+              word.textContent = match[0];
+              fragment.append(word);
+              visibleWords.push({ token: match[0].toLocaleLowerCase(), word });
+              offset = index + match[0].length;
+            }
+            if (offset < text.length) fragment.append(document.createTextNode(text.slice(offset)));
+            node.replaceWith(fragment);
+          });
+          return visibleWords;
+        };
+
+        const findSequence = (source, sequence, fromIndex) => {
+          for (let start = fromIndex; start <= source.length - sequence.length; start += 1) {
+            if (sequence.every((token, index) => source[start + index] === token)) return start;
+          }
+          return -1;
+        };
+
+        let captionWasWrapped = false;
+        let wordMap = new Map();
+        const buildWordMap = () => {
+          const captionTokens = tokens(caption.textContent);
+          const nextMap = new Map();
+          let cursor = 0;
+          passages.forEach(({ phrase, selector }) => {
+            const phraseTokens = tokens(phrase);
+            const start = findSequence(captionTokens, phraseTokens, cursor);
+            const target = table.querySelector(selector);
+            if (start < 0 || !target) return;
+            cursor = start + phraseTokens.length;
+            const visibleWords = wrapVisibleWords(target);
+            let visibleIndex = 0;
+            phraseTokens.forEach((token, phraseIndex) => {
+              while (visibleIndex < visibleWords.length && visibleWords[visibleIndex].token !== token) visibleIndex += 1;
+              if (visibleIndex >= visibleWords.length) return;
+              nextMap.set(start + phraseIndex, visibleWords[visibleIndex].word);
+              visibleIndex += 1;
+            });
+          });
+          wordMap = nextMap;
+        };
+
+        let frame = 0;
+        const synchronizeHighlight = () => {
+          frame = 0;
+          const captionWords = caption.querySelectorAll('[data-word-index]');
+          const captionIsWrapped = captionWords.length > 0;
+          if (captionIsWrapped && !captionWasWrapped) buildWordMap();
+          captionWasWrapped = captionIsWrapped;
+          clearHighlight();
+          if (!captionIsWrapped) {
+            wordMap = new Map();
+            return;
+          }
+          const active = caption.querySelector('[data-word-index].bg-yellow-300');
+          const activeIndex = Number(active?.getAttribute('data-word-index'));
+          const visibleWord = Number.isInteger(activeIndex) ? wordMap.get(activeIndex) : null;
+          if (visibleWord?.isConnected) visibleWord.classList.add('adt-table-word-highlight');
+        };
+        const scheduleSynchronization = () => {
+          if (frame) return;
+          frame = requestAnimationFrame(synchronizeHighlight);
+        };
+        new MutationObserver(scheduleSynchronization).observe(caption, {
+          attributes: true,
+          attributeFilter: ['class'],
+          childList: true,
+          subtree: true,
+        });
+      })();
+    </script>
     <script src="./assets/offline-preloader.js"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>

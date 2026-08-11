@@ -16,6 +16,11 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      .adt-table-word-highlight {
+        background-color: #fde047;
+        border-radius: 0.15em;
+        box-shadow: 0 0 0 2px rgba(250, 204, 21, 0.2);
+      }
     </style>    <link href="./assets/validation-overrides.css" rel="stylesheet">
 </head>
 
@@ -42,7 +47,7 @@
     <div class="overflow-x-auto pb-2">
       <table class="w-full min-w-[760px] border-collapse border-2 border-neutral-700 bg-white text-left text-[1.05rem] text-neutral-900">
         <caption data-id="pg089_n0073" class="sr-only">
-          Table. Matching geography terms with their meanings and uses. The table has three columns and seven data rows. Column one is Number. Column two is Column A. Column three is Column B. Column A contains five numbered items: Roman numeral one, A symbol of a North direction; Roman numeral two, Contour; Roman numeral three, Dots; Roman numeral four, G I S; Roman numeral five, Administrative boundaries. Column B contains seven choices: A, help to make correct decisions for the management of the country’s resources; B, affects the lives of living organisms; C, used to identify the shortage of inputs in the country; D, used to present steep and gentle slopes on a map; E, used to present population distribution; F, determine the direction and location on a map; G, Geographical Information System. Match each item in Column A with the correct choice in Column B.
+          Table. Matching geography terms with their meanings and uses. The table has three columns and seven data rows. Column one is Number. Column two is Column A. Column three is Column B. Column A contains five numbered items: Roman numeral one, A symbol of a North direction; Roman numeral two, Contour; Roman numeral three, Dots; Roman numeral four, GIS; Roman numeral five, Administrative boundaries. Column B contains seven choices: A, help to make correct decisions for the management of the country’s resources; B, affects the lives of living organisms; C, used to identify the shortage of inputs in the country; D, used to present steep and gentle slopes on a map; E, used to present population distribution; F, determine the direction and location on a map; G, Geographical Information System. Match each item in Column A with the correct choice in Column B.
         </caption>
         <thead class="bg-[#e2f2f8]">
           <tr>
@@ -233,6 +238,126 @@
     </script>
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
+    <script>
+      (() => {
+        const table = document.querySelector('section[data-section-id="pg088_sec001"] table');
+        const caption = table?.querySelector('caption[data-id="pg089_n0073"]');
+        if (!table || !caption) return;
+
+        const passages = [
+          { phrase: 'Column A', selector: 'thead th:nth-child(2)' },
+          { phrase: 'Column B', selector: 'thead th:nth-child(3)' },
+          { phrase: 'A symbol of a North direction', selector: '#item-1' },
+          { phrase: 'Contour', selector: '#item-2' },
+          { phrase: 'Dots', selector: '#item-3' },
+          { phrase: 'GIS', selector: '#item-4' },
+          { phrase: 'Administrative boundaries', selector: '#item-5' },
+          { phrase: 'A help to make correct decisions for the management of the country’s resources', selector: '#target1 > div:first-child' },
+          { phrase: 'B affects the lives of living organisms', selector: '#target2 > div:first-child' },
+          { phrase: 'C used to identify the shortage of inputs in the country', selector: '#target3 > div:first-child' },
+          { phrase: 'D used to present steep and gentle slopes on a map', selector: '#target4 > div:first-child' },
+          { phrase: 'E used to present population distribution', selector: '#target5 > div:first-child' },
+          { phrase: 'F determine the direction and location on a map', selector: '#target6 > div:first-child' },
+          { phrase: 'G Geographical Information System', selector: '#target7 > div:first-child' },
+        ];
+
+        const tokenPattern = /[\p{L}\p{N}\p{M}]+(?:[’'-][\p{L}\p{N}\p{M}]+)*/gu;
+        const tokens = (text) => Array.from(String(text || '').matchAll(tokenPattern), (match) => match[0].toLocaleLowerCase());
+        const clearHighlight = () => table.querySelectorAll('.adt-table-word-highlight').forEach((word) => word.classList.remove('adt-table-word-highlight'));
+
+        const wrapVisibleWords = (root) => {
+          root.querySelectorAll('.adt-table-word').forEach((word) => word.replaceWith(document.createTextNode(word.textContent || '')));
+          root.normalize();
+          const textNodes = [];
+          const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+            acceptNode(node) {
+              if (!node.textContent?.trim()) return NodeFilter.FILTER_REJECT;
+              if (node.parentElement?.closest('.validation-mark, .dropzone-slot')) return NodeFilter.FILTER_REJECT;
+              return NodeFilter.FILTER_ACCEPT;
+            },
+          });
+          for (let node = walker.nextNode(); node; node = walker.nextNode()) textNodes.push(node);
+          const visibleWords = [];
+          textNodes.forEach((node) => {
+            const text = node.textContent || '';
+            const fragment = document.createDocumentFragment();
+            let offset = 0;
+            for (const match of text.matchAll(tokenPattern)) {
+              const index = match.index || 0;
+              if (index > offset) fragment.append(document.createTextNode(text.slice(offset, index)));
+              const word = document.createElement('span');
+              word.className = 'adt-table-word';
+              word.textContent = match[0];
+              fragment.append(word);
+              visibleWords.push({ token: match[0].toLocaleLowerCase(), word });
+              offset = index + match[0].length;
+            }
+            if (offset < text.length) fragment.append(document.createTextNode(text.slice(offset)));
+            node.replaceWith(fragment);
+          });
+          return visibleWords;
+        };
+
+        const findSequence = (source, sequence, fromIndex) => {
+          for (let start = fromIndex; start <= source.length - sequence.length; start += 1) {
+            if (sequence.every((token, index) => source[start + index] === token)) return start;
+          }
+          return -1;
+        };
+
+        let captionWasWrapped = false;
+        let wordMap = new Map();
+        const buildWordMap = () => {
+          const captionTokens = tokens(caption.textContent);
+          const nextMap = new Map();
+          let cursor = 0;
+          passages.forEach(({ phrase, selector }) => {
+            const phraseTokens = tokens(phrase);
+            const start = findSequence(captionTokens, phraseTokens, cursor);
+            const target = table.querySelector(selector);
+            if (start < 0 || !target) return;
+            cursor = start + phraseTokens.length;
+            const visibleWords = wrapVisibleWords(target);
+            let visibleIndex = 0;
+            phraseTokens.forEach((token, phraseIndex) => {
+              while (visibleIndex < visibleWords.length && visibleWords[visibleIndex].token !== token) visibleIndex += 1;
+              if (visibleIndex >= visibleWords.length) return;
+              nextMap.set(start + phraseIndex, visibleWords[visibleIndex].word);
+              visibleIndex += 1;
+            });
+          });
+          wordMap = nextMap;
+        };
+
+        let frame = 0;
+        const synchronizeHighlight = () => {
+          frame = 0;
+          const captionWords = caption.querySelectorAll('[data-word-index]');
+          const captionIsWrapped = captionWords.length > 0;
+          if (captionIsWrapped && !captionWasWrapped) buildWordMap();
+          captionWasWrapped = captionIsWrapped;
+          clearHighlight();
+          if (!captionIsWrapped) {
+            wordMap = new Map();
+            return;
+          }
+          const active = caption.querySelector('[data-word-index].bg-yellow-300');
+          const activeIndex = Number(active?.getAttribute('data-word-index'));
+          const visibleWord = Number.isInteger(activeIndex) ? wordMap.get(activeIndex) : null;
+          if (visibleWord?.isConnected) visibleWord.classList.add('adt-table-word-highlight');
+        };
+        const scheduleSynchronization = () => {
+          if (frame) return;
+          frame = requestAnimationFrame(synchronizeHighlight);
+        };
+        new MutationObserver(scheduleSynchronization).observe(caption, {
+          attributes: true,
+          attributeFilter: ['class'],
+          childList: true,
+          subtree: true,
+        });
+      })();
+    </script>
     <script src="./assets/offline-preloader.js"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/base.bundle.local.js"></script>
