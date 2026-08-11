@@ -30449,7 +30449,7 @@
         "word_timestamps": [
           {
             "text": "and",
-            "start": 0.13599988555908214,
+            "start": 0.13599988555908213,
             "end": 0.7359997901916503
           }
         ]
@@ -56454,57 +56454,57 @@
           {
             "text": "3",
             "start": 0,
-            "end": 1.15
+            "end": 1.440000057220459
           },
           {
             "text": "In",
-            "start": 1.3022799999999999,
-            "end": 1.5125745185185184
+            "start": 1.9399999046325684,
+            "end": 2.0999999046325684
           },
           {
             "text": "which",
-            "start": 1.5375745185185183,
-            "end": 1.945020148148148
+            "start": 2.0999999046325684,
+            "end": 2.359999895095825
           },
           {
             "text": "direction",
-            "start": 1.9700201481481479,
-            "end": 2.6271905185185185
+            "start": 2.359999895095825,
+            "end": 2.859999895095825
           },
           {
             "text": "is",
-            "start": 2.6521905185185184,
-            "end": 2.862485037037037
+            "start": 2.859999895095825,
+            "end": 3.259999990463257
           },
           {
             "text": "Class",
-            "start": 2.887485037037037,
-            "end": 3.2949306666666667
+            "start": 3.259999990463257,
+            "end": 3.559999942779541
           },
           {
             "text": "V",
-            "start": 3.3199306666666666,
-            "end": 3.4776515555555556
+            "start": 3.559999942779541,
+            "end": 3.9200000762939453
           },
           {
             "text": "located",
-            "start": 3.5026515555555555,
-            "end": 4.041531259259259
+            "start": 3.9200000762939453,
+            "end": 4.320000171661377
           },
           {
             "text": "from",
-            "start": 4.06653125925926,
-            "end": 4.408259851851852
+            "start": 4.320000171661377,
+            "end": 4.639999866485596
           },
           {
             "text": "Class",
-            "start": 4.433259851851853,
-            "end": 4.840705481481482
+            "start": 4.639999866485596,
+            "end": 4.960000038146973
           },
           {
             "text": "VI",
-            "start": 4.865705481481482,
-            "end": 5.0760000000000005
+            "start": 4.960000038146973,
+            "end": 5.400000095367432
           }
         ]
       }
@@ -56518,57 +56518,57 @@
           {
             "text": "4",
             "start": 0,
-            "end": 1.15
+            "end": 1.3600000143051147
           },
           {
             "text": "In",
-            "start": 1.3099999999999998,
-            "end": 1.5349927007299269
+            "start": 2.199999895095825,
+            "end": 2.359999895095825
           },
           {
             "text": "which",
-            "start": 1.5599927007299268,
-            "end": 1.9959160583941604
+            "start": 2.359999895095825,
+            "end": 2.619999885559082
           },
           {
             "text": "direction",
-            "start": 2.0209160583941603,
-            "end": 2.7240182481751822
+            "start": 2.619999885559082,
+            "end": 3.0999999046325684
           },
           {
             "text": "is",
-            "start": 2.749018248175182,
-            "end": 2.974010948905109
+            "start": 3.0999999046325684,
+            "end": 3.4200000762939453
           },
           {
             "text": "Class",
-            "start": 2.999010948905109,
-            "end": 3.4349343065693425
+            "start": 3.4200000762939453,
+            "end": 3.680000066757202
           },
           {
             "text": "IV",
-            "start": 3.4599343065693424,
-            "end": 3.6849270072992693
+            "start": 3.680000066757202,
+            "end": 4.139999866485596
           },
           {
             "text": "located",
-            "start": 3.709927007299269,
-            "end": 4.286470802919707
+            "start": 4.139999866485596,
+            "end": 4.639999866485596
           },
           {
             "text": "from",
-            "start": 4.3114708029197075,
-            "end": 4.677083941605839
+            "start": 4.639999866485596,
+            "end": 4.980000019073486
           },
           {
             "text": "Class",
-            "start": 4.7020839416058395,
-            "end": 5.138007299270073
+            "start": 4.980000019073486,
+            "end": 5.260000228881836
           },
           {
             "text": "II",
-            "start": 5.163007299270073,
-            "end": 5.388
+            "start": 5.260000228881836,
+            "end": 5.619999885559082
           }
         ]
       }
@@ -152559,52 +152559,52 @@
           {
             "text": "3",
             "start": 0,
-            "end": 1.15
+            "end": 1.2799999713897705
           },
           {
             "text": "In",
-            "start": 1.3051599999999999,
-            "end": 1.561358427947598
+            "start": 1.7000000143051148,
+            "end": 1.8600000143051147
           },
           {
             "text": "which",
-            "start": 1.586358427947598,
-            "end": 2.0827428820960696
+            "start": 1.8600000143051147,
+            "end": 2.119999885559082
           },
           {
             "text": "direction",
-            "start": 2.1077428820960695,
-            "end": 2.9083629694323143
+            "start": 2.119999885559082,
+            "end": 2.640000104904175
           },
           {
             "text": "is",
-            "start": 2.9333629694323142,
-            "end": 3.1895613973799124
+            "start": 2.640000104904175,
+            "end": 2.9200000762939453
           },
           {
             "text": "Class",
-            "start": 3.2145613973799123,
-            "end": 3.710945851528384
+            "start": 2.9200000762939453,
+            "end": 3.2200000286102295
           },
           {
             "text": "V",
-            "start": 3.735945851528384,
-            "end": 3.9280946724890824
+            "start": 3.2200000286102295,
+            "end": 3.619999885559082
           },
           {
             "text": "from",
-            "start": 3.9530946724890823,
-            "end": 4.36941711790393
+            "start": 3.619999885559082,
+            "end": 4.21999979019165
           },
           {
             "text": "Class",
-            "start": 4.39441711790393,
-            "end": 4.890801572052402
+            "start": 4.21999979019165,
+            "end": 4.519999980926514
           },
           {
             "text": "VI",
-            "start": 4.915801572052402,
-            "end": 5.172000000000001
+            "start": 4.519999980926514,
+            "end": 4.920000076293945
           }
         ]
       }
@@ -152618,52 +152618,52 @@
           {
             "text": "4",
             "start": 0,
-            "end": 1.15
+            "end": 1.5800000429153442
           },
           {
             "text": "In",
-            "start": 1.3051599999999999,
-            "end": 1.5569601716738197
+            "start": 1.9199999237060548,
+            "end": 2.0799999237060547
           },
           {
             "text": "which",
-            "start": 1.5819601716738196,
-            "end": 2.0698230042918455
+            "start": 2.0799999237060547,
+            "end": 2.319999933242798
           },
           {
             "text": "direction",
-            "start": 2.0948230042918454,
-            "end": 2.881698540772532
+            "start": 2.319999933242798,
+            "end": 2.7799999713897705
           },
           {
             "text": "is",
-            "start": 2.906698540772532,
-            "end": 3.158498712446352
+            "start": 2.7799999713897705,
+            "end": 3.0399999618530273
           },
           {
             "text": "Class",
-            "start": 3.183498712446352,
-            "end": 3.6713615450643777
+            "start": 3.0399999618530273,
+            "end": 3.319999933242798
           },
           {
             "text": "IV",
-            "start": 3.6963615450643776,
-            "end": 3.9481617167381975
+            "start": 3.319999933242798,
+            "end": 3.7200000286102295
           },
           {
             "text": "from",
-            "start": 3.9731617167381974,
-            "end": 4.382336995708155
+            "start": 3.7200000286102295,
+            "end": 4.260000228881836
           },
           {
             "text": "Class",
-            "start": 4.407336995708155,
-            "end": 4.895199828326181
+            "start": 4.260000228881836,
+            "end": 4.539999961853027
           },
           {
             "text": "II",
-            "start": 4.920199828326181,
-            "end": 5.172000000000001
+            "start": 4.539999961853027,
+            "end": 4.900000095367432
           }
         ]
       }
@@ -191647,75 +191647,339 @@
     ]
   },
   "pg048_n0010_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "a",
+            "start": 0,
+            "end": 1.77408
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0011_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "b",
+            "start": 0,
+            "end": 0.82944
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0012_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 0.62
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0013_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "d",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0014_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "e",
+            "start": 0,
+            "end": 0.8999999761581421
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0015_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "f",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0010_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "a",
+            "start": 0,
+            "end": 1.77408
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0011_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "b",
+            "start": 0,
+            "end": 0.82944
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0012_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 0.62
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0013_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "d",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0014_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "e",
+            "start": 0,
+            "end": 0.8999999761581421
+          }
+        ]
+      }
+    ]
   },
   "pg048_n0015_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "f",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0006_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "a",
+            "start": 0,
+            "end": 1.77408
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0008_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "b",
+            "start": 0,
+            "end": 0.82944
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0010_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 0.62
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0012_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "d",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0014_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "e",
+            "start": 0,
+            "end": 0.8999999761581421
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0016_label": {
-    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "f",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0006_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "a", "start": 0, "end": 1.77408}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "a",
+            "start": 0,
+            "end": 1.77408
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0008_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "b", "start": 0, "end": 0.82944}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "b",
+            "start": 0,
+            "end": 0.82944
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0010_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "c", "start": 0, "end": 0.62}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "c",
+            "start": 0,
+            "end": 0.62
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0012_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "d", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "d",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0014_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "e", "start": 0, "end": 0.8999999761581421}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "e",
+            "start": 0,
+            "end": 0.8999999761581421
+          }
+        ]
+      }
+    ]
   },
   "pg050_n0016_label_easy_read": {
-    "timecodes": [null, {"word_timestamps": [{"text": "f", "start": 0, "end": 1.0598400000000001}]}]
+    "timecodes": [
+      null,
+      {
+        "word_timestamps": [
+          {
+            "text": "f",
+            "start": 0,
+            "end": 1.0598400000000001
+          }
+        ]
+      }
+    ]
   }
 }
