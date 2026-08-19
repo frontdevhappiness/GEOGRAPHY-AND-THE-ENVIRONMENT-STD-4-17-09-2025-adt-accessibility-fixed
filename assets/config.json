@@ -1,6 +1,6 @@
 {
   "title": "Geography and the Environment Pupil's Book Standard 4",
-  "bundleVersion": "1",
+  "bundleVersion": "2",
   "languages": {
     "available": [
       "en-GB"
@@ -8,7 +8,7 @@
     "default": "en-GB"
   },
   "features": {
-    "signLanguage": false,
+    "signLanguage": true,
     "easyRead": true,
     "glossary": true,
     "eli5": false,
