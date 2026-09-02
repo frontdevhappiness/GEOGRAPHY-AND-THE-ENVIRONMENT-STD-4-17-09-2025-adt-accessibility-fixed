@@ -520,14 +520,14 @@
       "trim_end": null
     },
     "video-38": {
-      "imported_at": "2026-08-26T04:08:30Z",
+      "imported_at": "2026-09-02T12:59:35Z",
       "filename": "sl_pg031_sec001.mp4",
       "section_id": "pg031_sec001",
       "languages": [
         "en-GB"
       ],
-      "source_name": "page_38.mp4 + page_39.mp4",
-      "source_size": 188092164,
+      "source_name": "page_38.mp4",
+      "source_size": 183714301,
       "preset": "balanced",
       "audio_mode": "remove",
       "trim_start": null,
@@ -562,14 +562,14 @@
       "trim_end": null
     },
     "video-41": {
-      "imported_at": "2026-08-19T09:53:00Z",
+      "imported_at": "2026-09-02T12:59:35Z",
       "filename": "sl_pg034_sec001.mp4",
       "section_id": "pg034_sec001",
       "languages": [
         "en-GB"
       ],
-      "source_name": "page_42.mp4",
-      "source_size": 31686201,
+      "source_name": "page_41.mp4",
+      "source_size": 46621011,
       "preset": "balanced",
       "audio_mode": "remove",
       "trim_start": null,
@@ -1136,14 +1136,14 @@
       "trim_end": null
     },
     "video-82": {
-      "imported_at": "2026-08-19T09:53:00Z",
+      "imported_at": "2026-09-02T12:59:35Z",
       "filename": "sl_pg062_sec001.mp4",
       "section_id": "pg062_sec001",
       "languages": [
         "en-GB"
       ],
-      "source_name": "page_83.mp4",
-      "source_size": 35088165,
+      "source_name": "page_82.mp4",
+      "source_size": 93548959,
       "preset": "balanced",
       "audio_mode": "remove",
       "trim_start": null,
