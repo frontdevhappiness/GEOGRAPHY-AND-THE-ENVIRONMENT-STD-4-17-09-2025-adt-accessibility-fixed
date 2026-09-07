@@ -36,3 +36,16 @@ The original generation request was not retained in the exported ADT. The strong
 - Printed step, question, option, and diagram labels are made explicit where punctuation-only input could be skipped
 
 No API credentials or request secrets are stored in this repository.
+
+## Shortfall follow-up — 7 September 2026
+
+Reader pages 25 (`pg022_sec001.html`) and 112 (`pg088_sec001.html`) now place Roman numerals inside Column A. Their narration preserves the original recorded voices. Only the obsolete explanation of three columns and a separate Number column was removed, with cuts placed in existing sentence pauses:
+
+- `pg022_n0072_original_voice_two_columns.mp3`: derived from `pg022_n0072.mp3`; removed seconds 3.52–13.20.
+- `pg089_n0073_original_voice_two_columns.mp3`: derived from `pg089_n0073_alloy_gpt4omini_tanzanian_table_v2.mp3`; removed seconds 4.72–13.39.
+
+The remaining narration, voice, pacing, and pronunciation come from the original recordings. No new speech is synthesized in the final versions. The edited MP3s retain 24 kHz mono audio, encoded at 128 kb/s. Standard/easy-read captions omit the same obsolete sentences, and their word timestamps are aligned to the retained original speech.
+
+Original MP3 files and unrelated mappings remain unchanged. Only these two table recordings and their standard/easy-read mappings are selected differently. The offline copies are synchronized. Matching controls, answer mappings, sign-language videos, feature settings, and shared runtime remain unchanged.
+
+Validation: browser inspection of both two-column layouts and successful keyboard matching; audio duration and timestamp checks; original-speech alignment and sentence-pause checks; `git diff --check`.

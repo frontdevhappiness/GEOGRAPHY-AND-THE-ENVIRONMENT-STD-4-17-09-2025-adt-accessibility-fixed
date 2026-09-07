@@ -16,6 +16,9 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      .adt-numbered-match { display: flex; align-items: baseline; gap: 0.5rem; }
+      .adt-numbered-match > span { flex: 0 0 auto; }
+      .adt-numbered-match > .activity-item { flex: 1 1 auto; min-width: 0; }
       .adt-table-word-highlight {
         background-color: #fde047;
         border-radius: 0.15em;
@@ -55,19 +58,16 @@
     <div class="overflow-x-auto pb-2">
       <table class="w-full min-w-[760px] border-collapse border-2 border-neutral-700 bg-white text-left text-[1.05rem] text-neutral-900">
         <caption data-id="pg089_n0073" class="sr-only">
-          Table. Matching geography terms with their meanings and uses. The table has three columns and seven data rows. Column one is Number. Column two is Column A. Column three is Column B. Column A contains five numbered items: Roman numeral one, A symbol of a North direction; Roman numeral two, Contour; Roman numeral three, Dots; Roman numeral four, GIS; Roman numeral five, Administrative boundaries. Column B contains seven choices: A, help to make correct decisions for the management of the country’s resources; B, affects the lives of living organisms; C, used to identify the shortage of inputs in the country; D, used to present steep and gentle slopes on a map; E, used to present population distribution; F, determine the direction and location on a map; G, Geographical Information System. Match each item in Column A with the correct choice in Column B.
-        </caption>
+            Table. Matching geography terms with their meanings and uses. Column A contains five numbered items: Roman numeral one, A symbol of a North direction; Roman numeral two, Contour; Roman numeral three, Dots; Roman numeral four, GIS; Roman numeral five, Administrative boundaries. Column B contains seven choices: A, help to make correct decisions for the management of the country’s resources; B, affects the lives of living organisms; C, used to identify the shortage of inputs in the country; D, used to present steep and gentle slopes on a map; E, used to present population distribution; F, determine the direction and location on a map; G, Geographical Information System. Match each item in Column A with the correct choice in Column B.
+          </caption>
         <thead class="bg-[#e2f2f8]">
           <tr>
-            <th class="w-20 border border-neutral-700 px-3 py-3 text-center font-bold">
-              <span data-id="pg089_n0005">Number</span>
-            </th>
 
-            <th class="w-[27%] border border-neutral-700 px-4 py-3 font-bold">
+            <th scope="col" style="width: 48%" class="border border-neutral-700 px-4 py-3 font-bold">
               <span data-id="pg089_n0007">Column A</span>
             </th>
 
-            <th class="border border-neutral-700 px-4 py-3 font-bold">
+            <th scope="col" class="border border-neutral-700 px-4 py-3 font-bold">
               <span data-id="pg089_n0009">Column B</span>
             </th>
           </tr>
@@ -76,15 +76,15 @@
         <tbody>
           <!-- Row A -->
           <tr>
-            <td class="border border-neutral-700 px-3 py-3 text-center align-middle">
-              <span data-id="pg089_n0012">(i)</span>
-            </td>
-
             <td class="border border-neutral-700 p-2 align-middle">
+                <div class="adt-numbered-match"><span data-id="pg089_n0012">(i)</span>
+
               <div id="item-1" data-id="pg089_n0014" data-activity-item="item-1" data-aria-id="aria-pg088-1" draggable="true" tabindex="0" role="button" aria-label="A symbol of a North direction" class="activity-item cursor-grab rounded-lg border-2 border-blue-200 bg-blue-50 px-3 py-3 leading-snug outline-none transition hover:border-blue-500 hover:bg-blue-100 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 active:cursor-grabbing">
                 A symbol of a North direction
               </div>
-            </td>
+
+                </div>
+              </td>
 
             <td id="target1" data-aria-id="aria-pg088-6" tabindex="0" role="button" aria-label="Drop the correct item for option a" class="dropzone border border-neutral-700 px-3 py-3 align-middle outline-none focus:bg-blue-50 focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <div class="flex items-start gap-2">
@@ -102,15 +102,15 @@
 
           <!-- Row B -->
           <tr>
-            <td class="border border-neutral-700 px-3 py-3 text-center align-middle">
-              <span data-id="pg089_n0019">(ii)</span>
-            </td>
-
             <td class="border border-neutral-700 p-2 align-middle">
+                <div class="adt-numbered-match"><span data-id="pg089_n0019">(ii)</span>
+
               <div id="item-2" data-id="pg089_n0021" data-activity-item="item-2" data-aria-id="aria-pg088-2" draggable="true" tabindex="0" role="button" aria-label="Contour" class="activity-item cursor-grab rounded-lg border-2 border-blue-200 bg-blue-50 px-3 py-3 leading-snug outline-none transition hover:border-blue-500 hover:bg-blue-100 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 active:cursor-grabbing">
                 Contour
               </div>
-            </td>
+
+                </div>
+              </td>
 
             <td id="target2" data-aria-id="aria-pg088-7" tabindex="0" role="button" aria-label="Drop the correct item for option b" class="dropzone border border-neutral-700 px-3 py-3 align-middle outline-none focus:bg-blue-50 focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <div class="flex items-start gap-2">
@@ -127,15 +127,15 @@
 
           <!-- Row C -->
           <tr>
-            <td class="border border-neutral-700 px-3 py-3 text-center align-middle">
-              <span data-id="pg089_n0026">(iii)</span>
-            </td>
-
             <td class="border border-neutral-700 p-2 align-middle">
+                <div class="adt-numbered-match"><span data-id="pg089_n0026">(iii)</span>
+
               <div id="item-3" data-id="pg089_n0028" data-activity-item="item-3" data-aria-id="aria-pg088-3" draggable="true" tabindex="0" role="button" aria-label="Dots" class="activity-item cursor-grab rounded-lg border-2 border-blue-200 bg-blue-50 px-3 py-3 leading-snug outline-none transition hover:border-blue-500 hover:bg-blue-100 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 active:cursor-grabbing">
                 Dots
               </div>
-            </td>
+
+                </div>
+              </td>
 
             <td id="target3" data-aria-id="aria-pg088-8" tabindex="0" role="button" aria-label="Drop the correct item for option c" class="dropzone border border-neutral-700 px-3 py-3 align-middle outline-none focus:bg-blue-50 focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <div class="flex items-start gap-2">
@@ -152,15 +152,15 @@
 
           <!-- Row D -->
           <tr>
-            <td class="border border-neutral-700 px-3 py-3 text-center align-middle">
-              <span data-id="pg089_n0033">(iv)</span>
-            </td>
-
             <td class="border border-neutral-700 p-2 align-middle">
+                <div class="adt-numbered-match"><span data-id="pg089_n0033">(iv)</span>
+
               <div id="item-4" data-id="pg089_n0035" data-activity-item="item-4" data-aria-id="aria-pg088-4" draggable="true" tabindex="0" role="button" aria-label="GIS" class="activity-item cursor-grab rounded-lg border-2 border-blue-200 bg-blue-50 px-3 py-3 leading-snug outline-none transition hover:border-blue-500 hover:bg-blue-100 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 active:cursor-grabbing">
                 GIS
               </div>
-            </td>
+
+                </div>
+              </td>
 
             <td id="target4" data-aria-id="aria-pg088-9" tabindex="0" role="button" aria-label="Drop the correct item for option d" class="dropzone border border-neutral-700 px-3 py-3 align-middle outline-none focus:bg-blue-50 focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <div class="flex items-start gap-2">
@@ -177,15 +177,15 @@
 
           <!-- Row E -->
           <tr>
-            <td rowspan="3" class="border border-neutral-700 px-3 py-3 text-center align-middle">
-              <span data-id="pg089_n0040">(v)</span>
-            </td>
-
             <td rowspan="3" class="border border-neutral-700 p-2 align-middle">
+                <div class="adt-numbered-match"><span data-id="pg089_n0040">(v)</span>
+
               <div id="item-5" data-id="pg089_n0042" data-activity-item="item-5" data-aria-id="aria-pg088-5" draggable="true" tabindex="0" role="button" aria-label="Administrative boundaries" class="activity-item cursor-grab rounded-lg border-2 border-blue-200 bg-blue-50 px-3 py-3 leading-snug outline-none transition hover:border-blue-500 hover:bg-blue-100 focus:border-blue-600 focus:ring-4 focus:ring-blue-100 active:cursor-grabbing">
                 Administrative boundaries
               </div>
-            </td>
+
+                </div>
+              </td>
 
             <td id="target5" data-aria-id="aria-pg088-10" tabindex="0" role="button" aria-label="Drop the correct item for option e" class="dropzone border border-neutral-700 px-3 py-3 align-middle outline-none focus:bg-blue-50 focus:ring-2 focus:ring-inset focus:ring-blue-500">
               <div class="flex items-start gap-2">
@@ -253,8 +253,8 @@
         if (!table || !caption) return;
 
         const passages = [
-          { phrase: 'Column A', selector: 'thead th:nth-child(2)' },
-          { phrase: 'Column B', selector: 'thead th:nth-child(3)' },
+          { phrase: 'Column A', selector: 'thead th:nth-child(1)' },
+          { phrase: 'Column B', selector: 'thead th:nth-child(2)' },
           { phrase: 'A symbol of a North direction', selector: '#item-1' },
           { phrase: 'Contour', selector: '#item-2' },
           { phrase: 'Dots', selector: '#item-3' },
@@ -313,18 +313,16 @@
           return -1;
         };
 
-        let captionWasWrapped = false;
+        let firstCaptionWord = null;
         let wordMap = new Map();
         const buildWordMap = () => {
           const captionTokens = tokens(caption.textContent);
           const nextMap = new Map();
-          let cursor = 0;
           passages.forEach(({ phrase, selector }) => {
             const phraseTokens = tokens(phrase);
-            const start = findSequence(captionTokens, phraseTokens, cursor);
+            const start = findSequence(captionTokens, phraseTokens, 0);
             const target = table.querySelector(selector);
             if (start < 0 || !target) return;
-            cursor = start + phraseTokens.length;
             const visibleWords = wrapVisibleWords(target);
             let visibleIndex = 0;
             phraseTokens.forEach((token, phraseIndex) => {
@@ -334,6 +332,21 @@
               visibleIndex += 1;
             });
           });
+          const numerals = ['one', 'two', 'three', 'four', 'five'];
+          table.querySelectorAll('.adt-numbered-match > span').forEach((label, index) => {
+            const phrase = tokens(`Roman numeral ${numerals[index]}`);
+            const start = findSequence(captionTokens, phrase, 0);
+            if (start >= 0) phrase.forEach((_, offset) => nextMap.set(start + offset, label));
+          });
+
+          // Easy-read narration spells out GIS; its visible label remains GIS.
+          const gisStart = findSequence(captionTokens, tokens('G I S'), 0);
+          const gisTarget = table.querySelector('#item-4');
+          if (gisStart >= 0 && gisTarget) {
+            const [gisWord] = wrapVisibleWords(gisTarget);
+            if (gisWord) for (let offset = 0; offset < 3; offset += 1) nextMap.set(gisStart + offset, gisWord.word);
+          }
+
           wordMap = nextMap;
         };
 
@@ -342,15 +355,15 @@
           frame = 0;
           const captionWords = caption.querySelectorAll('[data-word-index]');
           const captionIsWrapped = captionWords.length > 0;
-          if (captionIsWrapped && !captionWasWrapped) buildWordMap();
-          captionWasWrapped = captionIsWrapped;
+          if (captionIsWrapped && captionWords[0] !== firstCaptionWord) buildWordMap();
+          firstCaptionWord = captionWords[0] || null;
           clearHighlight();
           if (!captionIsWrapped) {
             wordMap = new Map();
             return;
           }
           const active = caption.querySelector('[data-word-index].bg-yellow-300');
-          const activeIndex = Number(active?.getAttribute('data-word-index'));
+          const activeIndex = active ? Number(active.getAttribute('data-word-index')) : NaN;
           const visibleWord = Number.isInteger(activeIndex) ? wordMap.get(activeIndex) : null;
           if (visibleWord?.isConnected) visibleWord.classList.add('adt-table-word-highlight');
         };

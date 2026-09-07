@@ -16,6 +16,9 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      .adt-numbered-match { display: flex; align-items: baseline; gap: 0.5rem; }
+      .adt-numbered-match > span { flex: 0 0 auto; }
+      .adt-numbered-match > .activity-item { flex: 1 1 auto; min-width: 0; }
       .adt-table-word-highlight {
         background-color: #fde047;
         border-radius: 0.15em;
@@ -45,25 +48,21 @@
       <div class="overflow-x-auto">
         <table class="w-full min-w-[680px] table-fixed border-collapse border border-neutral-700 text-[18px] leading-snug max-lg:text-[16px]">
           <caption data-id="pg022_n0072" class="sr-only">
-            Table. Matching map terms with their meanings. The table has three columns and seven data rows. Column one is Number. Column two is Column A. Column three is Column B. Column A contains five numbered items: Roman numeral one, Topographical maps; Roman numeral two, Frame; Roman numeral three, Essential elements of a map; Roman numeral four, Scale; Roman numeral five, Surfaces where a map can be drawn. Column B contains seven choices: A, on paper, land, a piece of cloth, and a computer; B, represent the features of the Earth’s surface; C, the relationship between the distance presented on the map and the real ground distance; D, scale, frame, North direction, title, key, source, and gridlines; E, presents the boundaries of a map; F, should be easy to read for map users; G, explains the symbols and signs used on the map. Match each item in Column A with the correct choice in Column B.
+            Table. Matching map terms with their meanings. Column A contains five numbered items: Roman numeral one, Topographical maps; Roman numeral two, Frame; Roman numeral three, Essential elements of a map; Roman numeral four, Scale; Roman numeral five, Surfaces where a map can be drawn. Column B contains seven choices: A, on paper, land, a piece of cloth, and a computer; B, represent the features of the Earth’s surface; C, the relationship between the distance presented on the map and the real ground distance; D, scale, frame, North direction, title, key, source, and gridlines; E, presents the boundaries of a map; F, should be easy to read for map users; G, explains the symbols and signs used on the map. Match each item in Column A with the correct choice in Column B.
           </caption>
           <colgroup>
-            <col style="width: 16%">
-            <col style="width: 32%">
+            <col style="width: 48%">
             <col style="width: 52%">
           </colgroup>
 
           <thead>
             <tr class="bg-[#dcecf7]">
-              <th class="border border-neutral-700 px-2 py-1 text-left font-bold" style="white-space: nowrap">
-                <span data-id="pg022_n0020">Number</span>
-              </th>
 
-              <th class="border border-neutral-700 px-2 py-1 text-left font-bold">
+              <th scope="col" class="border border-neutral-700 px-2 py-1 text-left font-bold">
                 <span data-id="pg022_n0022">Column A</span>
               </th>
 
-              <th class="border border-neutral-700 px-2 py-1 text-left font-bold">
+              <th scope="col" class="border border-neutral-700 px-2 py-1 text-left font-bold">
                 <span data-id="pg022_n0024">Column B</span>
               </th>
             </tr>
@@ -71,13 +70,13 @@
 
           <tbody>
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top">
-                <span data-id="pg022_n0027">(i)</span>
-              </td>
-
               <td class="border border-neutral-700 p-1 align-top">
+                <div class="adt-numbered-match"><span data-id="pg022_n0027">(i)</span>
+
                 <div class="activity-item min-h-11 cursor-grab rounded px-2 py-2 transition hover:bg-yellow-100 focus:bg-yellow-100 focus:outline-none focus:ring-2 focus:ring-blue-500 active:cursor-grabbing" data-activity-item="item-1" data-aria-id="pg022-match-item-1" draggable="true" tabindex="0" role="button" aria-label="Topographical maps">
                   <span data-id="pg022_n0029">Topographical maps</span>
+                </div>
+
                 </div>
               </td>
 
@@ -91,13 +90,13 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top">
-                <span data-id="pg022_n0034">(ii)</span>
-              </td>
-
               <td class="border border-neutral-700 p-1 align-top">
+                <div class="adt-numbered-match"><span data-id="pg022_n0034">(ii)</span>
+
                 <div class="activity-item min-h-11 cursor-grab rounded px-2 py-2 transition hover:bg-teal-100 focus:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-blue-500 active:cursor-grabbing" data-activity-item="item-2" data-aria-id="pg022-match-item-2" draggable="true" tabindex="0" role="button" aria-label="Frame">
                   <span data-id="pg022_n0036">Frame</span>
+                </div>
+
                 </div>
               </td>
 
@@ -111,14 +110,14 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top">
-                <span data-id="pg022_n0041">(iii)</span>
-              </td>
-
               <td class="border border-neutral-700 p-1 align-top">
+                <div class="adt-numbered-match"><span data-id="pg022_n0041">(iii)</span>
+
                 <div class="activity-item min-h-11 cursor-grab rounded px-2 py-2 transition hover:bg-pink-100 focus:bg-pink-100 focus:outline-none focus:ring-2 focus:ring-blue-500 active:cursor-grabbing" data-activity-item="item-3" data-aria-id="pg022-match-item-3" draggable="true" tabindex="0" role="button" aria-label="Essential elements of a map">
                   <span data-id="pg022_n0043">Essential elements</span>
                   <span data-id="pg022_n0044"> of a map</span>
+                </div>
+
                 </div>
               </td>
 
@@ -132,13 +131,13 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top">
-                <span data-id="pg022_n0049">(iv)</span>
-              </td>
-
               <td class="border border-neutral-700 p-1 align-top">
+                <div class="adt-numbered-match"><span data-id="pg022_n0049">(iv)</span>
+
                 <div class="activity-item min-h-11 cursor-grab rounded px-2 py-2 transition hover:bg-orange-100 focus:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-blue-500 active:cursor-grabbing" data-activity-item="item-4" data-aria-id="pg022-match-item-4" draggable="true" tabindex="0" role="button" aria-label="Scale">
                   <span data-id="pg022_n0051">Scale</span>
+                </div>
+
                 </div>
               </td>
 
@@ -152,14 +151,14 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top">
-                <span data-id="pg022_n0056">(v)</span>
-              </td>
-
               <td class="border border-neutral-700 p-1 align-top">
+                <div class="adt-numbered-match"><span data-id="pg022_n0056">(v)</span>
+
                 <div class="activity-item min-h-11 cursor-grab rounded px-2 py-2 transition hover:bg-blue-100 focus:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-500 active:cursor-grabbing" data-activity-item="item-5" data-aria-id="pg022-match-item-5" draggable="true" tabindex="0" role="button" aria-label="Surfaces where a map can be drawn">
                   <span data-id="pg022_n0058">Surfaces where a</span>
                   <span data-id="pg022_n0059"> map can be drawn</span>
+                </div>
+
                 </div>
               </td>
 
@@ -173,7 +172,6 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top"></td>
               <td class="border border-neutral-700 px-2 py-2 align-top"></td>
 
               <td id="target-6" class="dropzone cursor-pointer border border-neutral-700 px-2 py-2 align-top transition focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" data-aria-id="pg022-match-zone-6" tabindex="0" role="button" aria-label="Match with option f: should be easy to read for map users">
@@ -186,7 +184,6 @@
             </tr>
 
             <tr>
-              <td class="border border-neutral-700 px-3 py-2 align-top"></td>
               <td class="border border-neutral-700 px-2 py-2 align-top"></td>
 
               <td id="target-7" class="dropzone cursor-pointer border border-neutral-700 px-2 py-2 align-top transition focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500" data-aria-id="pg022-match-zone-7" tabindex="0" role="button" aria-label="Match with option g: explains the symbols and signs used on the map">
@@ -217,8 +214,8 @@
         if (!table || !caption) return;
 
         const passages = [
-          { phrase: 'Column A', selector: 'thead th:nth-child(2)' },
-          { phrase: 'Column B', selector: 'thead th:nth-child(3)' },
+          { phrase: 'Column A', selector: 'thead th:nth-child(1)' },
+          { phrase: 'Column B', selector: 'thead th:nth-child(2)' },
           { phrase: 'Topographical maps', selector: '[data-activity-item="item-1"]' },
           { phrase: 'Frame', selector: '[data-activity-item="item-2"]' },
           { phrase: 'Essential elements of a map', selector: '[data-activity-item="item-3"]' },
@@ -286,20 +283,18 @@
           return -1;
         };
 
-        let captionWasWrapped = false;
+        let firstCaptionWord = null;
         let wordMap = new Map();
 
         const buildWordMap = () => {
           const captionTokens = tokens(caption.textContent);
           const nextMap = new Map();
-          let cursor = 0;
 
           passages.forEach(({ phrase, selector }) => {
             const phraseTokens = tokens(phrase);
-            const start = findSequence(captionTokens, phraseTokens, cursor);
+            const start = findSequence(captionTokens, phraseTokens, 0);
             const target = table.querySelector(selector);
             if (start < 0 || !target) return;
-            cursor = start + phraseTokens.length;
 
             const visibleWords = wrapVisibleWords(target);
             let visibleIndex = 0;
@@ -311,6 +306,13 @@
             });
           });
 
+          const numerals = ['one', 'two', 'three', 'four', 'five'];
+          table.querySelectorAll('.adt-numbered-match > span').forEach((label, index) => {
+            const phrase = tokens(`Roman numeral ${numerals[index]}`);
+            const start = findSequence(captionTokens, phrase, 0);
+            if (start >= 0) phrase.forEach((_, offset) => nextMap.set(start + offset, label));
+          });
+
           wordMap = nextMap;
         };
 
@@ -319,8 +321,8 @@
           frame = 0;
           const captionWords = caption.querySelectorAll('[data-word-index]');
           const captionIsWrapped = captionWords.length > 0;
-          if (captionIsWrapped && !captionWasWrapped) buildWordMap();
-          captionWasWrapped = captionIsWrapped;
+          if (captionIsWrapped && captionWords[0] !== firstCaptionWord) buildWordMap();
+          firstCaptionWord = captionWords[0] || null;
 
           clearHighlight();
           if (!captionIsWrapped) {
@@ -329,7 +331,7 @@
           }
 
           const active = caption.querySelector('[data-word-index].bg-yellow-300');
-          const activeIndex = Number(active?.getAttribute('data-word-index'));
+          const activeIndex = active ? Number(active.getAttribute('data-word-index')) : NaN;
           const visibleWord = Number.isInteger(activeIndex) ? wordMap.get(activeIndex) : null;
           if (visibleWord?.isConnected) visibleWord.classList.add('adt-table-word-highlight');
         };

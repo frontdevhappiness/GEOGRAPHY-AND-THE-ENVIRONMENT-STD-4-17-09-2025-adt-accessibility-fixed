@@ -554,7 +554,7 @@
   "pg022_n0013": "pg022_n0013.mp3",
   "pg022_n0015": "pg022_q008_label_alloy_gpt4omini_tanzanian_v2.mp3",
   "pg022_n0016": "pg022_n0016.mp3",
-  "pg022_n0072": "pg022_n0072.mp3",
+  "pg022_n0072": "pg022_n0072_original_voice_two_columns.mp3",
   "pg022_n0073": "pg022_n0073.mp3",
   "pg022_n0075": "pg022_q009_label_alloy_gpt4omini_tanzanian_v2.mp3",
   "pg022_n0076": "pg022_n0076.mp3",
@@ -1699,7 +1699,7 @@
   "pg087_sec001_ans_item-20": "pg087_sec001_ans_item-20.mp3",
   "pg088_n0032": "pg088_n0032.mp3",
   "pg088_n0034": "pg088_n0034.mp3",
-  "pg089_n0073": "pg089_n0073_alloy_gpt4omini_tanzanian_table_v2.mp3",
+  "pg089_n0073": "pg089_n0073_original_voice_two_columns.mp3",
   "pg088_sec001_ans_item-1": "pg088_sec001_ans_item-1.mp3",
   "pg088_sec001_ans_item-2": "pg088_sec001_ans_item-2.mp3",
   "pg088_sec001_ans_item-3": "pg088_sec001_ans_item-3.mp3",
@@ -3536,7 +3536,7 @@
   "pg088_n0028_easy_read": "pg088_n0028_alloy_gpt4omini_tanzanian_spoken_letter_v2.mp3",
   "pg088_n0030_easy_read": "pg088_n0030_alloy_gpt4omini_tanzanian_spoken_letter_v2.mp3",
   "pg088_n0034_easy_read": "pg088_n0034_easy_read.mp3",
-  "pg089_n0073_easy_read": "pg089_n0073_alloy_gpt4omini_tanzanian_table_v2.mp3",
+  "pg089_n0073_easy_read": "pg089_n0073_original_voice_two_columns.mp3",
   "pg089_n0059_easy_read": "pg089_n0059_easy_read_alloy_tts1hd.mp3",
   "pg089_n0058_easy_read": "spoken_question_number_7_alloy_gpt4omini_tanzanian_v2.mp3",
   "pg089_n0062_easy_read": "pg089_n0062_easy_read_alloy_gpt4omini_tanzanian_letter_v2.mp3",
@@ -3693,5 +3693,6 @@
   "pg077_n0010": "pg077_n0010_alloy_gpt4omini_tanzanian_presented_v2.mp3",
   "pg095_n0007": "pg095_n0007_alloy_gpt4omini_tanzanian_presented_v2.mp3",
   "pg077_n0010_easy_read": "pg077_n0010_easy_read_alloy_gpt4omini_tanzanian_present_v2.mp3",
-  "pg095_n0007_easy_read": "pg095_n0007_alloy_gpt4omini_tanzanian_presented_v2.mp3"
+  "pg095_n0007_easy_read": "pg095_n0007_alloy_gpt4omini_tanzanian_presented_v2.mp3",
+  "pg022_n0072_easy_read": "pg022_n0072_original_voice_two_columns.mp3"
 }

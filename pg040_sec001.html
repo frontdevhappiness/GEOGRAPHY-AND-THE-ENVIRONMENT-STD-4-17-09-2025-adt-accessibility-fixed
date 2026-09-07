@@ -16,6 +16,10 @@
 
     <style>
       body, p, h1, h2, h3, h4, h5, h6, span, div, button, input, textarea, select { font-family: 'Arimo Compatible',Arimo,Arial,'Liberation Sans',sans-serif; }
+      [data-id="pg040_n0002"] { font-weight: 400; }
+      [data-id="pg040_n0002"] strong,
+      [data-id="pg040_n0002"] [data-word-index="0"],
+      [data-id="pg040_n0002"] [data-word-index="1"] { font-weight: 700; }
     </style>    <link href="./assets/validation-overrides.css" rel="stylesheet">
 </head>
 
@@ -27,12 +31,12 @@
 
     <div class="relative z-10 mx-auto flex w-full max-w-[1100px] flex-col items-center gap-12 max-sm:gap-9">
       <figure class="flex w-full max-w-[980px] flex-col">
-        <figcaption data-id="pg040_n0002" class="order-2 mt-5 text-center font-serif text-[2rem] font-semibold text-slate-800 max-lg:text-[1.65rem] max-sm:text-[1rem]" data-adt-caption-text="true">
-          Figure 1: Map symbols
-        </figcaption>
 
-        <img src="images/pg040_im003.jpg" alt="A rectangular chart is divided into five rows and two columns. Each section pairs a symbol with its name. Top row: a river is a blue wavy line; a mountain is a black outlined triangle with a black dot inside. Second row: a tree has a green leafy crown and black trunk; a school is an outlined square containing the letters S C. Third row: a railway is a horizontal black line crossed by short vertical sleepers; a mosque is a black crescent beside a star. Fourth row: a bridge is represented by two short parallel lines with angled ends; a church is a black cross above an outlined rectangular base. Fifth row: a building is represented by three connected outlined squares, one above two; a hospital is a capital H inside a double outlined square." class="order-1 mx-auto block h-auto w-full max-w-full bg-white object-contain" style="max-width: 100%; height: auto;">
+        <img src="images/pg040_im003.jpg" alt="A rectangular chart is divided into five rows and two columns. Each section pairs a symbol with its name. Top row: a river is a blue wavy line; a mountain is a black outlined triangle with a black dot inside. Second row: a tree has a green leafy crown and black trunk; a school is an outlined square containing the letters S C. Third row: a railway is a horizontal black line crossed by short vertical sleepers; a mosque is a black crescent beside a star. Fourth row: a bridge is represented by two short parallel lines with angled ends; a church is a black cross above an outlined rectangular base. Fifth row: a building is represented by three connected outlined squares, one above two; a hospital is a capital H inside a double outlined square." class="mx-auto block h-auto w-full max-w-full bg-white object-contain" style="max-width: 100%; height: auto;">
         <span data-id="pg040_im003" aria-hidden="true" class="sr-only">A rectangular chart is divided into five rows and two columns. Each section pairs a symbol with its name. Top row: a river is a blue wavy line; a mountain is a black outlined triangle with a black dot inside. Second row: a tree has a green leafy crown and black trunk; a school is an outlined square containing the letters S C. Third row: a railway is a horizontal black line crossed by short vertical sleepers; a mosque is a black crescent beside a star. Fourth row: a bridge is represented by two short parallel lines with angled ends; a church is a black cross above an outlined rectangular base. Fifth row: a building is represented by three connected outlined squares, one above two; a hospital is a capital H inside a double outlined square.</span>
+        <figcaption data-id="pg040_n0002" class="mt-5 text-center font-serif text-[2rem] font-semibold text-slate-800 max-lg:text-[1.65rem] max-sm:text-[1rem]" data-adt-caption-text="true">
+          <strong>Figure 1:</strong> Map symbols
+        </figcaption>
       </figure>
 
       <div class="relative mt-8 w-full max-w-[980px] rounded-[1.75rem] border-[8px] border-blue-100 bg-white px-8 pb-8 pt-16 shadow-sm max-lg:px-6 max-lg:pb-7 max-lg:pt-14 max-sm:mt-6 max-sm:rounded-[1.4rem] max-sm:border-[5px] max-sm:px-4 max-sm:pb-5 max-sm:pt-11">
@@ -65,6 +69,22 @@
 
     <div class="relative z-50" id="interface-container"></div>
     <div class="relative z-50" id="nav-container"></div>
+    <script>
+      (() => {
+        const caption = document.querySelector('[data-id="pg040_n0002"]');
+        const formatLabel = () => {
+          // Restore label formatting after localization or read-aloud restores plain text.
+          if (!caption || caption.children.length) return;
+          const match = caption.textContent.match(/^(\s*)(Figure 1:)([\s\S]*)$/);
+          if (!match) return;
+          const label = document.createElement('strong');
+          label.textContent = match[2];
+          caption.replaceChildren(document.createTextNode(match[1]), label, document.createTextNode(match[3]));
+        };
+        if (caption) new MutationObserver(formatLabel).observe(caption, { childList: true });
+        formatLabel();
+      })();
+    </script>
     <script src="./assets/offline-preloader.js"></script>
     <script src="./assets/scorm.js"></script>
     <script src="./assets/sign-language-sync.js?v=1"></script>
