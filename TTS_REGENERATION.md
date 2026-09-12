@@ -49,3 +49,11 @@ The remaining narration, voice, pacing, and pronunciation come from the original
 Original MP3 files and unrelated mappings remain unchanged. Only these two table recordings and their standard/easy-read mappings are selected differently. The offline copies are synchronized. Matching controls, answer mappings, sign-language videos, feature settings, and shared runtime remain unchanged.
 
 Validation: browser inspection of both two-column layouts and successful keyboard matching; audio duration and timestamp checks; original-speech alignment and sentence-pause checks; `git diff --check`.
+
+## Added cover narration — 12 September 2026
+
+Added narration for the separate front cover (`pg000_gp001_tx001`) and back cover (`pg097_gp001_tx001`) using the ADT Studio configured OpenAI credential. Used the documented `tts-1-hd`, `alloy`, speed `0.92` preset, MP3 output, and Whisper word alignment. Standard and easy-read entries share each cover's recording. Accessible text, audio mappings, word timings, offline data, and SCORM file entries are included. Existing narration and sign-video mappings are unchanged.
+
+### Cover voice correction
+
+At the user's correction, regenerated both cover recordings with `gpt-4o-mini-tts`, Alloy, default speed, and ADT Studio's `en-tz` speech instructions (Tanzanian English, calm conversational delivery, cheerful and positive tone). Updated only the cover audio selections and their Whisper word timings, plus offline and SCORM entries. Earlier cover MP3s are retained but no longer selected.

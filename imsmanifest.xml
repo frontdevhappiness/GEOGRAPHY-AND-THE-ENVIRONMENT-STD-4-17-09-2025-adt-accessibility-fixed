@@ -26,6 +26,14 @@
               adlcp:scormtype="sco"
               href="index.html">
       <file href="index.html"/>
+      <file href="content/i18n/en-GB/audio/pg000_gp001_tx001_alloy_gpt4omini.mp3"/>
+      <file href="content/i18n/en-GB/audio/pg097_gp001_tx001_alloy_gpt4omini.mp3"/>
+      <file href="content/i18n/en-GB/audio/pg000_gp001_tx001_alloy_tts1hd.mp3"/>
+      <file href="content/i18n/en-GB/audio/pg097_gp001_tx001_alloy_tts1hd.mp3"/>
+      <file href="pg001_sec001.html"/>
+      <file href="pg097_sec001.html"/>
+      <file href="images/front-cover.png"/>
+      <file href="images/back-cover.png"/>
       <file href="pg002_sec001.html"/>
       <file href="pg003_sec001.html"/>
       <file href="pg004_sec001.html"/>
